@@ -1,0 +1,5 @@
+# Set text files to use LF line endings
+* text eol=lf
+
+# Set linguist-detectable for files
+*.md linguist-detectable
