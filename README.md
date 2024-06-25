@@ -1,6 +1,6 @@
 # Scrolia
 
-Scrolia, a scrollbar extension for web.
+A custom scrollbar built for web.
 
 It currently supports various Chromium-based browsers, including Chrome, Edge, and Opera. It is disabled on all mobile browsers by detecting the user agent. Additional browser support may be added in the future based on demand or preference.
 
