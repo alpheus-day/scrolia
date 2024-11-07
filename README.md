@@ -10,28 +10,78 @@ The library is currently closed-source, but this may change in the future.
 
 ## Installation
 
+### CDN
+
 To use Scrolia via CDN, add the following script to the project:
 
 ```html
 <script src="https://unpkg.com/@scrolia/vanilla@X.X.X/dist/scrolia.js"></script>
 ```
 
+### Vanilla
+
 To install Scrolia without any framework:
 
-```bash
+npm:
+
+```sh
 npm i @scrolia/vanilla
 ```
 
+Yarn:
+
+```sh
+yarn add @scrolia/vanilla
+```
+
+pnpm:
+
+```sh
+pnpm add @scrolia/vanilla
+```
+
+### React / Next.js
+
 To install Scrolia for React:
 
-```bash
+npm:
+
+```sh
 npm i @scrolia/react
 ```
 
+Yarn:
+
+```sh
+yarn add @scrolia/react
+```
+
+pnpm:
+
+```sh
+pnpm add @scrolia/react
+```
+
+### React Native Web
+
 To install Scrolia for React Native Web:
 
-```bash
+npm:
+
+```sh
 npm i @scrolia/react-native
+```
+
+Yarn:
+
+```sh
+yarn add @scrolia/react-native
+```
+
+pnpm:
+
+```sh
+pnpm add @scrolia/react-native
 ```
 
 ## Usage
@@ -46,4 +96,4 @@ For using Scrolia in React Native Web, visit [docs/react-native.md](./docs/react
 
 ## License
 
-This project is MIT licensed, you can find the license file [here](./LICENSE).
+This project is licensed under the terms of the MIT license.
