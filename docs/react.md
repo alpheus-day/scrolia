@@ -7,9 +7,9 @@ This is the documentation for using Scrolia in React.
 For using Scrolia in page:
 
 ```tsx
-import * as React from "react";
-import * as ReactDOM from "react-dom/client";
+import type * as React from "react";
 
+import * as ReactDOM from "react-dom/client";
 import { PageScrollbar } from "@scrolia/react";
 
 const App = (): React.JSX.Element => {
@@ -28,7 +28,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 For using Scrolia inside component:
 
 ```tsx
-import * as React from "react";
+import type * as React from "react";
 
 import { ComponentScrollbar } from "@scrolia/react";
 

@@ -2,85 +2,58 @@
 
 A custom scrollbar built for web.
 
-It currently supports various Chromium-based browsers, including Chrome, Edge, and Opera. It is disabled on all mobile browsers by detecting the user agent. Additional browser support may be added in the future based on demand or preference.
-
 Major Frameworks like [React](https://react.dev/)/[Next](https://nextjs.org/)(both App Router and Page Router) and [React Native](https://reactnative.dev/) are supported. More frameworks may be supported in the future if needed or desired.
 
-The library is currently closed-source, but this may change in the future.
-
 ## Installation
-
-### CDN
 
 To use Scrolia via CDN, add the following script to the project:
 
 ```html
-<script src="https://unpkg.com/@scrolia/vanilla@X.X.X/dist/scrolia.js"></script>
+<script src="https://unpkg.com/@scrolia/vanilla@latest/dist/scrolia.js"></script>
 ```
 
-### Vanilla
+For the minified version:
+
+```html
+<script src="https://unpkg.com/@scrolia/vanilla@latest/dist/scrolia.min.js"></script>
+```
 
 To install Scrolia without any framework:
 
-npm:
-
 ```sh
+# npm
 npm i @scrolia/vanilla
-```
 
-Yarn:
-
-```sh
+# Yarn
 yarn add @scrolia/vanilla
-```
 
-pnpm:
-
-```sh
+# pnpm
 pnpm add @scrolia/vanilla
 ```
 
-### React / Next.js
-
 To install Scrolia for React:
 
-npm:
-
 ```sh
+# npm
 npm i @scrolia/react
-```
 
-Yarn:
-
-```sh
+# Yarn
 yarn add @scrolia/react
-```
 
-pnpm:
-
-```sh
+# pnpm
 pnpm add @scrolia/react
 ```
 
-### React Native Web
-
 To install Scrolia for React Native Web:
 
-npm:
-
 ```sh
+# npm
 npm i @scrolia/react-native
-```
 
-Yarn:
-
-```sh
+# Yarn
 yarn add @scrolia/react-native
-```
 
-pnpm:
-
-```sh
+# pnpm
 pnpm add @scrolia/react-native
 ```
 

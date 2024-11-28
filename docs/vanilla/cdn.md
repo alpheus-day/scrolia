@@ -14,8 +14,8 @@ For using Scrolia in page:
 </body>
 ```
 
-```ts
-const ct: HTMLElement | null = document.getElementById("container");
+```js
+var ct = document.getElementById("container");
 ct && scrolia.pageScrollbar(ct);
 ```
 
@@ -29,7 +29,7 @@ For using Scrolia inside component:
 </div>
 ```
 
-```ts
-const ct: HTMLElement | null = document.getElementById("container");
+```js
+var ct = document.getElementById("container");
 ct && scrolia.componentScrollbar(ct);
 ```
