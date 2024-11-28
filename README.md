@@ -12,13 +12,13 @@ To use Scrolia via CDN, add the following script to the project:
 <script src="https://unpkg.com/@scrolia/vanilla@latest/dist/scrolia.js"></script>
 ```
 
-For the minified version:
+For production, use the minified version:
 
 ```html
 <script src="https://unpkg.com/@scrolia/vanilla@latest/dist/scrolia.min.js"></script>
 ```
 
-To install Scrolia without any framework:
+Install Scrolia as a dependency in pure JavaScript/TypeScript project:
 
 ```sh
 # npm
@@ -31,7 +31,7 @@ yarn add @scrolia/vanilla
 pnpm add @scrolia/vanilla
 ```
 
-To install Scrolia for React:
+Install Scrolia as a dependency in React project:
 
 ```sh
 # npm
@@ -44,7 +44,7 @@ yarn add @scrolia/react
 pnpm add @scrolia/react
 ```
 
-To install Scrolia for React Native Web:
+Install Scrolia as a dependency in React Native project:
 
 ```sh
 # npm
@@ -65,7 +65,7 @@ For using Scrolia without any framework, visit [docs/vanilla/import.md](./docs/v
 
 For using Scrolia in React, visit [docs/react.md](./docs/react.md).
 
-For using Scrolia in React Native Web, visit [docs/react-native.md](./docs/react-native.md).
+For using Scrolia in React Native, visit [docs/react-native.md](./docs/react-native.md).
 
 ## License
 
