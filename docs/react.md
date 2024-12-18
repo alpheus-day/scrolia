@@ -12,6 +12,10 @@ import type * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { PageScrollbar } from "@scrolia/react";
 
+import "@scrolia/react/css";
+// or
+import "@scrolia/react/dist/index.css";
+
 const App = (): React.JSX.Element => {
     return (
         <>
@@ -31,6 +35,10 @@ For using Scrolia inside component:
 import type * as React from "react";
 
 import { ComponentScrollbar } from "@scrolia/react";
+
+import "@scrolia/react/css";
+// or
+import "@scrolia/react/dist/index.css";
 
 const Component = (): React.JSX.Element => {
     return (

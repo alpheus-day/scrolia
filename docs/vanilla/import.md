@@ -4,7 +4,28 @@ This is the documentation for using Scrolia without any framework.
 
 ## Usage
 
-For using Scrolia in page:
+Following is the usage of Scrolia in page and component.
+
+### Use Scrolia in Page
+
+Import the CSS through HTML:
+
+```html
+<link
+    rel="stylesheet"
+    href="https://unpkg.com/@scrolia/vanilla@latest/dist/index.css"
+/>
+```
+
+Or import the CSS through JavaScript:
+
+```js
+import "@scrolia/vanilla/css";
+// or
+import "@scrolia/vanilla/dist/index.css";
+```
+
+Add the following HTML code:
 
 ```html
 <body>
@@ -14,15 +35,36 @@ For using Scrolia in page:
 </body>
 ```
 
-```ts
+Then add the following code to bind the scrollbar:
+
+```js
 import { pageScrollbar } from "@scrolia/vanilla";
 
-const ct: HTMLElement | null = document.getElementById("container");
+const ct = document.getElementById("container");
 
 ct && pageScrollbar(ct);
 ```
 
-For using Scrolia inside component:
+### Use Scrolia in Component
+
+Import the CSS through HTML:
+
+```html
+<link
+    rel="stylesheet"
+    href="https://unpkg.com/@scrolia/vanilla@latest/dist/index.css"
+/>
+```
+
+Or import the CSS through JavaScript:
+
+```js
+import "@scrolia/vanilla/css";
+// or
+import "@scrolia/vanilla/dist/index.css";
+```
+
+Add the following HTML code:
 
 ```html
 <div style="width: 250px; height: 500px;">
@@ -32,10 +74,12 @@ For using Scrolia inside component:
 </div>
 ```
 
-```ts
+Then add the following code to bind the scrollbar:
+
+```js
 import { componentScrollbar } from "@scrolia/vanilla";
 
-const ct: HTMLElement | null = document.getElementById("container");
+const ct = document.getElementById("container");
 
 ct && componentScrollbar(ct);
 ```

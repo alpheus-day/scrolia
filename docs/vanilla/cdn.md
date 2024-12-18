@@ -4,7 +4,11 @@ This is the documentation for using Scrolia through CDN.
 
 ## Usage
 
-For using Scrolia in page:
+Following is the usage of Scrolia in page and component.
+
+### Use Scrolia in Page
+
+Add the following HTML code:
 
 ```html
 <body>
@@ -14,12 +18,16 @@ For using Scrolia in page:
 </body>
 ```
 
+Then add the following code to bind the scrollbar:
+
 ```js
 var ct = document.getElementById("container");
 ct && scrolia.pageScrollbar(ct);
 ```
 
-For using Scrolia inside component:
+### Use Scrolia in Component
+
+Add the following HTML code:
 
 ```html
 <div style="width: 250px; height: 500px;">
@@ -28,6 +36,8 @@ For using Scrolia inside component:
     </div>
 </div>
 ```
+
+Then add the following code to bind the scrollbar:
 
 ```js
 var ct = document.getElementById("container");

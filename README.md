@@ -10,12 +10,14 @@ To use Scrolia via CDN, add the following script to the project:
 
 ```html
 <script src="https://unpkg.com/@scrolia/vanilla@latest/dist/scrolia.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@scrolia/vanilla@latest/dist/index.css" />
 ```
 
 For production, use the minified version:
 
 ```html
 <script src="https://unpkg.com/@scrolia/vanilla@latest/dist/scrolia.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@scrolia/vanilla@latest/dist/index.min.css" />
 ```
 
 Install Scrolia as a dependency in pure JavaScript/TypeScript project:
