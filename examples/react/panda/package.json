@@ -15,7 +15,7 @@
         "react-router": "^7.5.0"
     },
     "devDependencies": {
-        "@pandacss/dev": "~0.53.3",
+        "@pandacss/dev": "~0.53.4",
         "@types/react": "~19.0.0",
         "@types/react-dom": "~19.0.0",
         "@vitejs/plugin-react-swc": "^3.9.0",
