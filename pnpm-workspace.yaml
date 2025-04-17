@@ -1,0 +1,7 @@
+packages:
+  - ./packages/*
+  - ./examples/*
+  - ./examples/vanilla/*
+  - ./examples/react/*
+  - ./examples/next/*
+  - ./examples/expo/*

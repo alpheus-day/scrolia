@@ -1,0 +1,34 @@
+{
+    "name": "@scrolia/shared",
+    "version": "0.4.0",
+    "description": "An internal package for Scrolia",
+    "keywords": [
+        "scrolia",
+        "scrollbar",
+        "headless",
+        "ts",
+        "typescript",
+        "js",
+        "javascript"
+    ],
+    "homepage": "https://github.com/alpheustangs/scrolia",
+    "bugs": "https://github.com/alpheustangs/scrolia/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alpheustangs/scrolia.git",
+        "directory": "packages/shared"
+    },
+    "license": "MIT",
+    "author": "Alpheus Tang",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        }
+    },
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "files": ["dist"]
+}

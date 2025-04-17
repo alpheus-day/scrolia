@@ -1,0 +1,50 @@
+{
+    "private": true,
+    "scripts": {
+        "fmt": "biome check --write .",
+        "tsc": "npm-run-all --sequential tsc:shared tsc:vanilla tsc:react tsc:native",
+        "tsc:shared": "cd packages/shared && tsc --noEmit",
+        "tsc:vanilla": "cd packages/vanilla && tsc --noEmit",
+        "tsc:react": "cd packages/react && tsc --noEmit",
+        "tsc:native": "npm-run-all --sequential tsc:native:core tsc:native:thumb tsc:native:pkg tsc:native:fl tsc:native:rt",
+        "tsc:native:core": "cd packages/react-native-core && tsc --noEmit",
+        "tsc:native:thumb": "cd packages/react-native-core-thumb && tsc --noEmit",
+        "tsc:native:pkg": "cd packages/react-native && tsc --noEmit",
+        "tsc:native:fl": "cd packages/react-native-flash-list && tsc --noEmit",
+        "tsc:native:rt": "cd packages/react-native-reanimated-thumb && tsc --noEmit",
+        "build": "npm-run-all --sequential build:shared build:vanilla build:alias build:react build:native",
+        "build:shared": "cd packages/shared && tsup",
+        "build:vanilla": "npm-run-all --sequential build:vanilla:js build:vanilla:css build:vanilla:css:min",
+        "build:vanilla:js": "cd packages/vanilla && tsup",
+        "build:vanilla:css": "cd packages/vanilla && sass --no-source-map static/index.scss:dist/index.css",
+        "build:vanilla:css:min": "cd packages/vanilla && sass --no-source-map --style=compressed static/index.scss:dist/index.min.css",
+        "build:alias": "cd packages/alias && tsup",
+        "build:react": "npm-run-all --sequential build:react:js build:react:css",
+        "build:react:js": "cd packages/react && rslib build",
+        "build:react:css": "cd packages/react && sass --no-source-map static/index.scss:dist/index.css",
+        "build:native": "npm-run-all --sequential build:native:core build:native:thumb build:native:pkg build:native:fl build:native:rt",
+        "build:native:core": "cd packages/react-native-core && rslib build",
+        "build:native:thumb": "cd packages/react-native-core-thumb && rslib build",
+        "build:native:pkg": "cd packages/react-native && rslib build",
+        "build:native:fl": "cd packages/react-native-flash-list && rslib build",
+        "build:native:rt": "cd packages/react-native-reanimated-thumb && rslib build",
+        "": ""
+    },
+    "devDependencies": {
+        "@apst/biome": "~0.1.0",
+        "@apst/tsconfig": "~0.1.0",
+        "@biomejs/biome": "^1.9.4",
+        "@microsoft/api-extractor": "^7.52.4",
+        "@rsbuild/plugin-react": "^1.2.0",
+        "@rslib/core": "~0.6.3",
+        "@swc/core": "^1.11.21",
+        "@types/node": "^20.17.30",
+        "npm-run-all2": "^7.0.2",
+        "sass": "^1.86.3",
+        "tsup": "^8.4.0",
+        "typescript": "^5.8.3"
+    },
+    "engines": {
+        "node": ">=20"
+    }
+}

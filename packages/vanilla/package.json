@@ -1,0 +1,42 @@
+{
+    "name": "@scrolia/vanilla",
+    "version": "0.4.0",
+    "description": "A customizable scrollbar component",
+    "keywords": [
+        "scrolia",
+        "scrollbar",
+        "component",
+        "headless",
+        "ts",
+        "typescript",
+        "js",
+        "javascript"
+    ],
+    "homepage": "https://github.com/alpheustangs/scrolia",
+    "bugs": "https://github.com/alpheustangs/scrolia/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alpheustangs/scrolia.git",
+        "directory": "packages/vanilla"
+    },
+    "license": "MIT",
+    "author": "Alpheus Tang",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        },
+        "./css": "./dist/index.css",
+        "./dist/index.css": "./dist/index.css"
+    },
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "files": ["dist"],
+    "dependencies": {
+        "@preact/signals-core": "^1.8.0",
+        "@scrolia/shared": "workspace:~",
+        "ts-vista": "~0.2.0"
+    }
+}

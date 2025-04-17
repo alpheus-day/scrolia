@@ -1,0 +1,38 @@
+{
+    "name": "scrolia",
+    "version": "0.0.2",
+    "description": "A customizable scrollbar component",
+    "keywords": [
+        "scrolia",
+        "scrollbar",
+        "component",
+        "headless",
+        "ts",
+        "typescript",
+        "js",
+        "javascript"
+    ],
+    "homepage": "https://github.com/alpheustangs/scrolia",
+    "bugs": "https://github.com/alpheustangs/scrolia/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alpheustangs/scrolia.git",
+        "directory": "packages/alias"
+    },
+    "license": "MIT",
+    "author": "Alpheus Tang",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        }
+    },
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "files": ["dist"],
+    "dependencies": {
+        "@scrolia/vanilla": "*"
+    }
+}

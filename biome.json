@@ -1,0 +1,17 @@
+{
+    "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+    "extends": ["@apst/biome"],
+    "files": {
+        "ignore": [
+            "./.git/**/*",
+            "./**/__MACOSX/**/*",
+            "./**/.DS_Store",
+            "./**/.expo/**/*",
+            "./**/.next/**/*",
+            "./**/.panda/**/*",
+            "./**/dist/**/*",
+            "./**/node_modules/**/*",
+            "./pnpm-lock.yaml"
+        ]
+    }
+}
