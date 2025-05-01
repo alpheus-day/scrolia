@@ -36,7 +36,7 @@
         "@biomejs/biome": "^1.9.4",
         "@microsoft/api-extractor": "^7.52.4",
         "@rsbuild/plugin-react": "^1.2.0",
-        "@rslib/core": "~0.6.5",
+        "@rslib/core": "~0.6.8",
         "@swc/core": "^1.11.21",
         "@types/node": "^20.17.30",
         "npm-run-all2": "^7.0.2",
