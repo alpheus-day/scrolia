@@ -34,7 +34,7 @@
         "@apst/biome": "~0.1.0",
         "@apst/tsconfig": "~0.1.0",
         "@biomejs/biome": "^1.9.4",
-        "@microsoft/api-extractor": "^7.52.6",
+        "@microsoft/api-extractor": "^7.52.7",
         "@rsbuild/plugin-react": "^1.2.0",
         "@rslib/core": "~0.6.8",
         "@swc/core": "^1.11.21",
