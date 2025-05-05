@@ -29,9 +29,6 @@ importers:
       '@swc/core':
         specifier: ^1.11.21
         version: 1.11.24(@swc/helpers@0.5.17)
-      '@types/node':
-        specifier: ^20.17.30
-        version: 20.17.32
       npm-run-all2:
         specifier: ^7.0.2
         version: 7.0.2

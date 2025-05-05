@@ -2,11 +2,11 @@
     "private": true,
     "scripts": {
         "fmt": "biome check --write .",
-        "tsc": "npm-run-all --sequential tsc:shared tsc:vanilla tsc:react tsc:native",
+        "tsc": "npm-run-all --parallel tsc:shared tsc:vanilla tsc:react tsc:native",
         "tsc:shared": "cd packages/shared && tsc --noEmit",
         "tsc:vanilla": "cd packages/vanilla && tsc --noEmit",
         "tsc:react": "cd packages/react && tsc --noEmit",
-        "tsc:native": "npm-run-all --sequential tsc:native:core tsc:native:thumb tsc:native:pkg tsc:native:fl tsc:native:rt",
+        "tsc:native": "npm-run-all --parallel tsc:native:core tsc:native:thumb tsc:native:pkg tsc:native:fl tsc:native:rt",
         "tsc:native:core": "cd packages/react-native-core && tsc --noEmit",
         "tsc:native:thumb": "cd packages/react-native-core-thumb && tsc --noEmit",
         "tsc:native:pkg": "cd packages/react-native && tsc --noEmit",
@@ -38,13 +38,9 @@
         "@rsbuild/plugin-react": "^1.2.0",
         "@rslib/core": "~0.6.8",
         "@swc/core": "^1.11.21",
-        "@types/node": "^20.17.30",
         "npm-run-all2": "^7.0.2",
         "sass": "^1.86.3",
         "tsup": "^8.4.0",
         "typescript": "^5.8.3"
-    },
-    "engines": {
-        "node": ">=20"
     }
 }
