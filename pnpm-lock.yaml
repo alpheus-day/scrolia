@@ -18,14 +18,14 @@ importers:
         specifier: ^1.9.4
         version: 1.9.4
       '@microsoft/api-extractor':
-        specifier: ^7.52.7
-        version: 7.52.7(@types/node@20.17.32)
+        specifier: ^7.52.8
+        version: 7.52.8(@types/node@20.17.32)
       '@rsbuild/plugin-react':
         specifier: ^1.3.1
         version: 1.3.1(@rsbuild/core@1.3.19)
       '@rslib/core':
         specifier: ~0.7.1
-        version: 0.7.1(@microsoft/api-extractor@7.52.7(@types/node@20.17.32))(typescript@5.8.3)
+        version: 0.7.1(@microsoft/api-extractor@7.52.8(@types/node@20.17.32))(typescript@5.8.3)
       '@swc/core':
         specifier: ^1.11.21
         version: 1.11.24(@swc/helpers@0.5.17)
@@ -37,7 +37,7 @@ importers:
         version: 1.88.0
       tsup:
         specifier: ^8.4.0
-        version: 8.4.0(@microsoft/api-extractor@7.52.7(@types/node@20.17.32))(@swc/core@1.11.24(@swc/helpers@0.5.17))(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.3)
+        version: 8.4.0(@microsoft/api-extractor@7.52.8(@types/node@20.17.32))(@swc/core@1.11.24(@swc/helpers@0.5.17))(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.3)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -1735,8 +1735,8 @@ packages:
   '@microsoft/api-extractor-model@7.30.6':
     resolution: {integrity: sha512-znmFn69wf/AIrwHya3fxX6uB5etSIn6vg4Q4RB/tb5VDDs1rqREc+AvMC/p19MUN13CZ7+V/8pkYPTj7q8tftg==}
 
-  '@microsoft/api-extractor@7.52.7':
-    resolution: {integrity: sha512-YLdPS644MfbLJt4hArP1WcldcaEUBh9wnFjcLEcQnVG0AMznbLh2sdE0F5Wr+w6+Lyp5/XUPvRAg3sYGSP3GCw==}
+  '@microsoft/api-extractor@7.52.8':
+    resolution: {integrity: sha512-cszYIcjiNscDoMB1CIKZ3My61+JOhpERGlGr54i6bocvGLrcL/wo9o+RNXMBrb7XgLtKaizZWUpqRduQuHQLdg==}
     hasBin: true
 
   '@microsoft/tsdoc-config@0.17.1':
@@ -4900,6 +4900,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.7.2:
+    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   send@0.19.0:
     resolution: {integrity: sha512-dW41u5VfLXu8SJh5bwRmyYUbAoSB3c9uQh6L8h/KtsFREPWpbX1lrljJo186Jc4nmci/sGUZ9a0a0J2zgfq2hw==}
     engines: {node: '>= 0.8.0'}
@@ -6723,7 +6728,7 @@ snapshots:
       jimp-compact: 0.16.1
       parse-png: 2.1.0
       resolve-from: 5.0.0
-      semver: 7.7.1
+      semver: 7.7.2
       temp-dir: 2.0.0
       unique-string: 2.0.0
 
@@ -6797,7 +6802,7 @@ snapshots:
       debug: 4.4.0
       fs-extra: 9.1.0
       resolve-from: 5.0.0
-      semver: 7.7.1
+      semver: 7.7.2
       xml2js: 0.6.0
     transitivePeerDependencies:
       - supports-color
@@ -7019,7 +7024,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
 
-  '@microsoft/api-extractor@7.52.7(@types/node@20.17.32)':
+  '@microsoft/api-extractor@7.52.8(@types/node@20.17.32)':
     dependencies:
       '@microsoft/api-extractor-model': 7.30.6(@types/node@20.17.32)
       '@microsoft/tsdoc': 0.15.1
@@ -7111,7 +7116,7 @@ snapshots:
 
   '@npmcli/fs@3.1.1':
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
 
   '@pandacss/config@0.53.6':
     dependencies:
@@ -7703,13 +7708,13 @@ snapshots:
     transitivePeerDependencies:
       - webpack-hot-middleware
 
-  '@rslib/core@0.7.1(@microsoft/api-extractor@7.52.7(@types/node@20.17.32))(typescript@5.8.3)':
+  '@rslib/core@0.7.1(@microsoft/api-extractor@7.52.8(@types/node@20.17.32))(typescript@5.8.3)':
     dependencies:
       '@rsbuild/core': 1.3.19
-      rsbuild-plugin-dts: 0.7.1(@microsoft/api-extractor@7.52.7(@types/node@20.17.32))(@rsbuild/core@1.3.19)(typescript@5.8.3)
+      rsbuild-plugin-dts: 0.7.1(@microsoft/api-extractor@7.52.8(@types/node@20.17.32))(@rsbuild/core@1.3.19)(typescript@5.8.3)
       tinyglobby: 0.2.13
     optionalDependencies:
-      '@microsoft/api-extractor': 7.52.7(@types/node@20.17.32)
+      '@microsoft/api-extractor': 7.52.8(@types/node@20.17.32)
       typescript: 5.8.3
 
   '@rspack/binding-darwin-arm64@1.3.9':
@@ -9959,7 +9964,7 @@ snapshots:
     dependencies:
       hosted-git-info: 7.0.2
       proc-log: 4.2.0
-      semver: 7.7.1
+      semver: 7.7.2
       validate-npm-package-name: 5.0.1
 
   npm-run-all2@8.0.1:
@@ -10597,7 +10602,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.40.1
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.7.1(@microsoft/api-extractor@7.52.7(@types/node@20.17.32))(@rsbuild/core@1.3.19)(typescript@5.8.3):
+  rsbuild-plugin-dts@0.7.1(@microsoft/api-extractor@7.52.8(@types/node@20.17.32))(@rsbuild/core@1.3.19)(typescript@5.8.3):
     dependencies:
       '@ast-grep/napi': 0.37.0
       '@rsbuild/core': 1.3.19
@@ -10606,7 +10611,7 @@ snapshots:
       tinyglobby: 0.2.13
       tsconfig-paths: 4.2.0
     optionalDependencies:
-      '@microsoft/api-extractor': 7.52.7(@types/node@20.17.32)
+      '@microsoft/api-extractor': 7.52.8(@types/node@20.17.32)
       typescript: 5.8.3
 
   run-parallel@1.2.0:
@@ -10649,6 +10654,8 @@ snapshots:
       lru-cache: 6.0.0
 
   semver@7.7.1: {}
+
+  semver@7.7.2: {}
 
   send@0.19.0:
     dependencies:
@@ -11022,7 +11029,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsup@8.4.0(@microsoft/api-extractor@7.52.7(@types/node@20.17.32))(@swc/core@1.11.24(@swc/helpers@0.5.17))(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.3):
+  tsup@8.4.0(@microsoft/api-extractor@7.52.8(@types/node@20.17.32))(@swc/core@1.11.24(@swc/helpers@0.5.17))(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.3):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.25.3)
       cac: 6.7.14
@@ -11041,7 +11048,7 @@ snapshots:
       tinyglobby: 0.2.13
       tree-kill: 1.2.2
     optionalDependencies:
-      '@microsoft/api-extractor': 7.52.7(@types/node@20.17.32)
+      '@microsoft/api-extractor': 7.52.8(@types/node@20.17.32)
       '@swc/core': 1.11.24(@swc/helpers@0.5.17)
       postcss: 8.5.3
       typescript: 5.8.3
