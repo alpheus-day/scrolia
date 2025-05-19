@@ -10,10 +10,12 @@ import type {
 
 import * as React from "react";
 
+/** Options for `ScrollCore` context states. */
 type ScrollCoreStatesOptions = Format<
     SharedIndividualOptions & Partial<IndividualOptionsBase>
 >;
 
+/** States for `ScrollCore` context. */
 type ScrollCoreStates = {
     options: ScrollCoreStatesOptions;
     hvTrack: boolean;
@@ -32,8 +34,10 @@ type ScrollCoreStates = {
     setIsActive: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
+/** Options for `ScrollCore` context. */
 type ScrollCoreOptions = CompleteOptionsBase;
 
+/** Core for internal logic. */
 type ScrollCore = {
     options: ScrollCoreOptions;
     ref: React.RefObject<HTMLDivElement | null>;
@@ -41,9 +45,11 @@ type ScrollCore = {
     y: ScrollCoreStates;
 };
 
+/** `ScrollCore` context. */
 const ScrollCoreContext: React.Context<ScrollCore | null> =
     React.createContext<ScrollCore | null>(null);
 
+/** A hook for `ScrollCore` context. */
 const useScrollCore = (): ScrollCore => {
     const core: ScrollCore | null = React.useContext(ScrollCoreContext);
 

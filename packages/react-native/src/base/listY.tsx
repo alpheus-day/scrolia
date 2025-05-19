@@ -14,6 +14,7 @@ import { FlatList } from "react-native";
 
 import { useScrollCore } from "@scrolia/react-native-core";
 
+/** Props for the `ListY` component. */
 type ListYProps<T> = FlatListProps<T>;
 
 const List = <T,>(

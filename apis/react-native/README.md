@@ -6,19 +6,19 @@
 
 | Type Alias | Description |
 | ------ | ------ |
-| [ContainerProps](type-aliases/ContainerProps.md) | - |
-| [ContentXProps](type-aliases/ContentXProps.md) | - |
-| [ContentYProps](type-aliases/ContentYProps.md) | - |
-| [IndividualOptions](type-aliases/IndividualOptions.md) | - |
-| [ListXProps](type-aliases/ListXProps.md) | - |
-| [ListYProps](type-aliases/ListYProps.md) | - |
-| [Options](type-aliases/Options.md) | - |
-| [ScrollbarProps](type-aliases/ScrollbarProps.md) | - |
-| [ThumbColor](type-aliases/ThumbColor.md) | - |
-| [ThumbXProps](type-aliases/ThumbXProps.md) | - |
-| [ThumbYProps](type-aliases/ThumbYProps.md) | - |
-| [TrackXProps](type-aliases/TrackXProps.md) | - |
-| [TrackYProps](type-aliases/TrackYProps.md) | - |
+| [ContainerProps](type-aliases/ContainerProps.md) | Props for the `Container` component. |
+| [ContentXProps](type-aliases/ContentXProps.md) | Props for the `ContentX` component. |
+| [ContentYProps](type-aliases/ContentYProps.md) | Props for the `ContentY` component. |
+| [IndividualOptions](type-aliases/IndividualOptions.md) | Individual options for each axis. |
+| [ListXProps](type-aliases/ListXProps.md) | Props for the `ListX` component. |
+| [ListYProps](type-aliases/ListYProps.md) | Props for the `ListY` component. |
+| [Options](type-aliases/Options.md) | Scrollbar options. |
+| [ScrollbarProps](type-aliases/ScrollbarProps.md) | Props for the `Scrollbar` component. |
+| [ThumbColor](type-aliases/ThumbColor.md) | Color configuration of the thumb. |
+| [ThumbXProps](type-aliases/ThumbXProps.md) | Props for the `ThumbX` component. |
+| [ThumbYProps](type-aliases/ThumbYProps.md) | Props for the `ThumbY` component. |
+| [TrackXProps](type-aliases/TrackXProps.md) | Props for the `TrackX` component. |
+| [TrackYProps](type-aliases/TrackYProps.md) | Props for the `TrackY` component. |
 
 ## Variables
 
@@ -29,7 +29,7 @@
 | [ContentY](variables/ContentY.md) | Content component. |
 | [ListX](variables/ListX.md) | Horizontal list component. |
 | [ListY](variables/ListY.md) | Vertical list component. |
-| [styles](variables/styles.md) | - |
+| [styles](variables/styles.md) | Default styles for the components. |
 | [ThumbX](variables/ThumbX.md) | Horizontal thumb component. |
 | [ThumbY](variables/ThumbY.md) | Vertical thumb component. |
 | [TrackX](variables/TrackX.md) | Horizontal track component. |

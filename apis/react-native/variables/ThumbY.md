@@ -6,6 +6,6 @@
 const ThumbY: React.ForwardRefExoticComponent<ThumbYProps & React.RefAttributes<View>>;
 ```
 
-Defined in: packages/react-native-core-thumb/dist/types/thumbY/index.d.ts:5
+Defined in: packages/react-native-core-thumb/dist/types/thumbY/index.d.ts:6
 
 Vertical thumb component.

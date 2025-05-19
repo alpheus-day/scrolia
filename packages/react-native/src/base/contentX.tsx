@@ -14,6 +14,7 @@ import { ScrollView } from "react-native";
 
 import { useScrollCore } from "@scrolia/react-native-core";
 
+/** Props for the `ContentX` component. */
 type ContentXProps = ScrollViewProps;
 
 const Content = (

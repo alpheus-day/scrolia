@@ -6,6 +6,6 @@
 const TrackY: React.ForwardRefExoticComponent<TrackYProps & React.RefAttributes<View>>;
 ```
 
-Defined in: [packages/react-native/src/base/trackY.tsx:57](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/react-native/src/base/trackY.tsx#L57)
+Defined in: [packages/react-native/src/base/trackY.tsx:58](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react-native/src/base/trackY.tsx#L58)
 
 Vertical track component.

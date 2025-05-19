@@ -18,6 +18,7 @@ import { createThumbY } from "#/base/components/thumbY";
 import { createTrackX } from "#/base/components/trackX";
 import { createTrackY } from "#/base/components/trackY";
 
+/** Result of `createScrollbar` function. */
 type CreateScrollbar = {
     /**
      * Attaches complete scrollbar function into the element.

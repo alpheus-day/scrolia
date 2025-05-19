@@ -6,7 +6,7 @@
 function ThumbX(props): Element;
 ```
 
-Defined in: [packages/react/src/base/thumbX.tsx:17](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/react/src/base/thumbX.tsx#L17)
+Defined in: [packages/react/src/base/thumbX.tsx:18](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/base/thumbX.tsx#L18)
 
 Horizontal thumb component.
 

@@ -6,7 +6,9 @@
 type ScrollCore = object;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:37](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/react/src/contexts/index.ts#L37)
+Defined in: [packages/react/src/contexts/index.ts:41](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L41)
+
+Core for internal logic.
 
 ## Properties
 
@@ -16,7 +18,7 @@ Defined in: [packages/react/src/contexts/index.ts:37](https://github.com/alpheus
 options: ScrollCoreOptions;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:38](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/react/src/contexts/index.ts#L38)
+Defined in: [packages/react/src/contexts/index.ts:42](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L42)
 
 ***
 
@@ -26,7 +28,7 @@ Defined in: [packages/react/src/contexts/index.ts:38](https://github.com/alpheus
 ref: React.RefObject<HTMLDivElement | null>;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:39](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/react/src/contexts/index.ts#L39)
+Defined in: [packages/react/src/contexts/index.ts:43](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L43)
 
 ***
 
@@ -36,7 +38,7 @@ Defined in: [packages/react/src/contexts/index.ts:39](https://github.com/alpheus
 x: ScrollCoreStates;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:40](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/react/src/contexts/index.ts#L40)
+Defined in: [packages/react/src/contexts/index.ts:44](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L44)
 
 ***
 
@@ -46,4 +48,4 @@ Defined in: [packages/react/src/contexts/index.ts:40](https://github.com/alpheus
 y: ScrollCoreStates;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:41](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/react/src/contexts/index.ts#L41)
+Defined in: [packages/react/src/contexts/index.ts:45](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L45)

@@ -9,6 +9,7 @@ type CreateThumbXOptions = {
     core: Core;
 };
 
+/** Result of `createThumbX` function. */
 type CreateThumbX = CreateComponent;
 
 const createThumbX = (options: CreateThumbXOptions): CreateThumbX => {

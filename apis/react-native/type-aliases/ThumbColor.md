@@ -6,4 +6,6 @@
 type ThumbColor = Format<Partial<CompleteThumbColor>>;
 ```
 
-Defined in: packages/react-native-core/dist/types/@types/options.d.ts:22
+Defined in: packages/react-native-core/dist/types/@types/options.d.ts:23
+
+Color configuration of the thumb.

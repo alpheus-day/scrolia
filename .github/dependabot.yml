@@ -8,6 +8,8 @@ updates:
           timezone: "Etc/UTC"
       allow:
           # root
+          - dependency-name: "@apst/biome"
+          - dependency-name: "@apst/tsconfig"
           - dependency-name: "@biomejs/biome"
           - dependency-name: "@microsoft/api-extractor"
           - dependency-name: "@rsbuild/plugin-react"
@@ -16,6 +18,8 @@ updates:
           - dependency-name: "npm-run-all2"
           - dependency-name: "sass"
           - dependency-name: "tsup"
+          - dependency-name: "typedoc"
+          - dependency-name: "typedoc-plugin-markdown"
           - dependency-name: "typescript"
           # next
           - dependency-name: "next"

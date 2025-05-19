@@ -5,6 +5,7 @@ type CreateContainerOptions = {
     core: Core;
 };
 
+/** Result of `createContainer` function. */
 type CreateContainer = CreateComponent;
 
 const createContainer = (options: CreateContainerOptions): CreateContainer => {

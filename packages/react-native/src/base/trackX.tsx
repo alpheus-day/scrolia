@@ -9,6 +9,7 @@ import { StyleSheet, View } from "react-native";
 
 import { styles, useScrollCore } from "@scrolia/react-native-core";
 
+/** Props for the `TrackX` component. */
 type TrackXProps = ViewProps;
 
 const Track = (props: TrackXProps, ref: React.Ref<View>): React.JSX.Element => {

@@ -6,6 +6,6 @@
 const TrackX: React.ForwardRefExoticComponent<TrackXProps & React.RefAttributes<View>>;
 ```
 
-Defined in: [packages/react-native/src/base/trackX.tsx:57](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/react-native/src/base/trackX.tsx#L57)
+Defined in: [packages/react-native/src/base/trackX.tsx:58](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react-native/src/base/trackX.tsx#L58)
 
 Horizontal track component.

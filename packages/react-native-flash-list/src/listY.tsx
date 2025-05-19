@@ -14,6 +14,7 @@ import * as React from "react";
 
 import { useScrollCore } from "@scrolia/react-native-core";
 
+/** Props for the `FlashListY` component. */
 type FlashListYProps<T> = FlashListProps<T>;
 
 const List = <T,>(

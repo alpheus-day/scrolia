@@ -36,6 +36,24 @@ const reactNative = path.resolve(
     "README.md",
 );
 
+const reactNativeFlashList = path.resolve(
+    process.cwd(),
+    "..",
+    "..",
+    "apis",
+    "react-native-flash-list",
+    "README.md",
+);
+
+const reactNativeReanimatedThumb = path.resolve(
+    process.cwd(),
+    "..",
+    "..",
+    "apis",
+    "react-native-reanimated-thumb",
+    "README.md",
+);
+
 /**
  * @param {import("typedoc-plugin-markdown").MarkdownPageEvent} page
  */
@@ -43,7 +61,9 @@ const insert = (page) => {
     if (
         page.filename === vanilla ||
         page.filename === react ||
-        page.filename === reactNative
+        page.filename === reactNative ||
+        page.filename === reactNativeFlashList ||
+        page.filename === reactNativeReanimatedThumb
     ) {
         const head = "[< Back](./../../README.md)\n\n";
         page.contents = head + page.contents;

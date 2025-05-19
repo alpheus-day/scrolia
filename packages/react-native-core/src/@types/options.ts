@@ -21,6 +21,7 @@ type CompleteThumbColor = {
     press: string;
 };
 
+/** Color configuration of the thumb. */
 type ThumbColor = Format<Partial<CompleteThumbColor>>;
 
 type SharedIndividualOptions = {
@@ -55,6 +56,7 @@ type IndividualOptionsBase = {
 type CompleteIndividualOptions = SharedIndividualOptions &
     IndividualOptionsBase;
 
+/** Individual options for each axis. */
 type IndividualOptions = Format<
     Partial<
         Omit<CompleteIndividualOptions, "thumbColor"> & {
@@ -112,6 +114,7 @@ type CompleteOptions = Format<
         }
 >;
 
+/** Scrollbar options. */
 type Options = Format<
     Partial<
         Omit<CompleteOptions, "thumbColor" | "x" | "y"> & {

@@ -2,6 +2,7 @@ import { StyleSheet } from "react-native";
 
 import { MARGIN_START } from "@scrolia/shared";
 
+/** Default styles for the components. */
 const styles = StyleSheet.create({
     container: {
         position: "relative",

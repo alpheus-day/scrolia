@@ -6,16 +6,16 @@
 
 | Type Alias | Description |
 | ------ | ------ |
-| [CreateContainer](type-aliases/CreateContainer.md) | - |
-| [CreateContent](type-aliases/CreateContent.md) | - |
-| [CreateScrollbar](type-aliases/CreateScrollbar.md) | - |
-| [CreateThumbX](type-aliases/CreateThumbX.md) | - |
-| [CreateThumbY](type-aliases/CreateThumbY.md) | - |
-| [CreateTrackX](type-aliases/CreateTrackX.md) | - |
-| [CreateTrackY](type-aliases/CreateTrackY.md) | - |
-| [IndividualOptions](type-aliases/IndividualOptions.md) | - |
-| [OnActiveOptions](type-aliases/OnActiveOptions.md) | - |
-| [Options](type-aliases/Options.md) | - |
+| [CreateContainer](type-aliases/CreateContainer.md) | Result of `createContainer` function. |
+| [CreateContent](type-aliases/CreateContent.md) | Result of `createContent` function. |
+| [CreateScrollbar](type-aliases/CreateScrollbar.md) | Result of `createScrollbar` function. |
+| [CreateThumbX](type-aliases/CreateThumbX.md) | Result of `createThumbX` function. |
+| [CreateThumbY](type-aliases/CreateThumbY.md) | Result of `createThumbY` function. |
+| [CreateTrackX](type-aliases/CreateTrackX.md) | Result of `createTrackX` function. |
+| [CreateTrackY](type-aliases/CreateTrackY.md) | Result of `createTrackY` function. |
+| [IndividualOptions](type-aliases/IndividualOptions.md) | Individual options for each axis. |
+| [OnActiveOptions](type-aliases/OnActiveOptions.md) | Options for `onActive` function. |
+| [Options](type-aliases/Options.md) | Scrollbar options. |
 
 ## Functions
 

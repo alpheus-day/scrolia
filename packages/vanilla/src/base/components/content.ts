@@ -9,6 +9,7 @@ type CreateContentOptions = {
     core: Core;
 };
 
+/** Result of `createContent` function. */
 type CreateContent = CreateComponent;
 
 const createContent = (options: CreateContentOptions): CreateContent => {

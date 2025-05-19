@@ -6,4 +6,6 @@
 type ScrollbarProps = Format<Pick<Options, "disabled" | "page"> & object>;
 ```
 
-Defined in: [packages/react/src/components/scrollbar.tsx:13](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/react/src/components/scrollbar.tsx#L13)
+Defined in: [packages/react/src/components/scrollbar.tsx:14](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/components/scrollbar.tsx#L14)
+
+Props for `Scrollbar` component.

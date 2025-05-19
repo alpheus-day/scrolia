@@ -6,7 +6,7 @@
 function TrackY(props): Element;
 ```
 
-Defined in: [packages/react/src/base/trackY.tsx:15](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/react/src/base/trackY.tsx#L15)
+Defined in: [packages/react/src/base/trackY.tsx:16](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/base/trackY.tsx#L16)
 
 Vertical track component.
 

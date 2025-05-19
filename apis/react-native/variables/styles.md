@@ -6,7 +6,9 @@
 const styles: object;
 ```
 
-Defined in: packages/react-native-core/dist/types/styles/index.d.ts:1
+Defined in: packages/react-native-core/dist/types/styles/index.d.ts:2
+
+Default styles for the components.
 
 ## Type declaration
 

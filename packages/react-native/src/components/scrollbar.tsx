@@ -11,6 +11,7 @@ import { ContentY } from "#/base/contentY";
 import { TrackX } from "#/base/trackX";
 import { TrackY } from "#/base/trackY";
 
+/** Props for the `Scrollbar` component. */
 type ScrollbarProps = Format<
     Pick<Options, "disabled" | "thumbColor" | "useNativeDriver"> & {
         children?: React.ReactNode;

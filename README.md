@@ -51,6 +51,14 @@ please refer to the [React APIs](./apis/react/README.md).
 For React Native package APIs,
 please refer to the [React Native APIs](./apis/react-native/README.md).
 
+For React Native Flash List package APIs,
+please refer to the 
+[Flash List APIs](./apis/react-native-flash-list/README.md).
+
+For React Native Reanimated Thumb package APIs,
+please refer to the 
+[Reanimated Thumb APIs](./apis/react-native-reanimated-thumb/README.md).
+
 ## License
 
 This project is licensed under the terms of the MIT license.

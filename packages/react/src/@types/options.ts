@@ -21,6 +21,7 @@ type SharedIndividualOptions = {
     activeThumbClassName: string | false;
 };
 
+/** Options for `onActive` function. */
 type OnActiveOptions = {
     /**
      * Whether the scrollbar is active or not.
@@ -75,6 +76,7 @@ type CompleteOptions = Format<
         }
 >;
 
+/** Scrollbar options. */
 type Options = Format<
     Partial<CompleteOptionsBase> &
         Partial<SharedIndividualOptions> &

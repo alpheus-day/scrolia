@@ -9,6 +9,7 @@ import { StyleSheet, View } from "react-native";
 
 import { ScrollCoreProvider, styles } from "@scrolia/react-native-core";
 
+/** Props for the `Container` component. */
 type ContainerProps = Options & ViewProps;
 
 const _Container = (

@@ -16,6 +16,7 @@ import { usePanResponderY, useScrollCore } from "@scrolia/react-native-core";
 import { AnimatedThumbY } from "#/thumbY/animated";
 import { UnanimatedThumbY } from "#/thumbY/unanimated";
 
+/** Props for the `ThumbY` component. */
 type ThumbYProps = ViewProps;
 
 const Thumb = (props: ThumbYProps, ref: React.Ref<View>): React.JSX.Element => {

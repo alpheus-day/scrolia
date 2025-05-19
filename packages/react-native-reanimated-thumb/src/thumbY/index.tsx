@@ -16,6 +16,7 @@ import { UnanimatedThumbY } from "@scrolia/react-native-core-thumb";
 
 import { AnimatedThumbY } from "#/thumbY/animated";
 
+/** Props for the `ReanimatedThumbY` component. */
 type ReanimatedThumbYProps = ViewProps;
 
 const Thumb = (

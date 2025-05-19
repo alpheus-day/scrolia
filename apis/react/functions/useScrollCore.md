@@ -6,7 +6,9 @@
 function useScrollCore(): ScrollCore;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:47](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/react/src/contexts/index.ts#L47)
+Defined in: [packages/react/src/contexts/index.ts:53](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L53)
+
+A hook for `ScrollCore` context.
 
 ## Returns
 

@@ -6,7 +6,9 @@
 type CreateScrollbar = object;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:21](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/vanilla/src/base/index.ts#L21)
+Defined in: [packages/vanilla/src/base/index.ts:22](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/vanilla/src/base/index.ts#L22)
+
+Result of `createScrollbar` function.
 
 ## Properties
 
@@ -16,7 +18,7 @@ Defined in: [packages/vanilla/src/base/index.ts:21](https://github.com/alpheusta
 attach: (el) => () => void;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:25](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/vanilla/src/base/index.ts#L25)
+Defined in: [packages/vanilla/src/base/index.ts:26](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/vanilla/src/base/index.ts#L26)
 
 Attaches complete scrollbar function into the element.
 
@@ -44,7 +46,7 @@ Attaches complete scrollbar function into the element.
 container: CreateContainer;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:29](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/vanilla/src/base/index.ts#L29)
+Defined in: [packages/vanilla/src/base/index.ts:30](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/vanilla/src/base/index.ts#L30)
 
 Container functions.
 
@@ -56,7 +58,7 @@ Container functions.
 content: CreateContent;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:33](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/vanilla/src/base/index.ts#L33)
+Defined in: [packages/vanilla/src/base/index.ts:34](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/vanilla/src/base/index.ts#L34)
 
 Content functions.
 
@@ -68,7 +70,7 @@ Content functions.
 thumbX: CreateThumbX;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:45](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/vanilla/src/base/index.ts#L45)
+Defined in: [packages/vanilla/src/base/index.ts:46](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/vanilla/src/base/index.ts#L46)
 
 Horizontal thumb functions.
 
@@ -80,7 +82,7 @@ Horizontal thumb functions.
 thumbY: CreateThumbY;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:49](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/vanilla/src/base/index.ts#L49)
+Defined in: [packages/vanilla/src/base/index.ts:50](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/vanilla/src/base/index.ts#L50)
 
 Vertical thumb functions.
 
@@ -92,7 +94,7 @@ Vertical thumb functions.
 trackX: CreateTrackX;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:37](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/vanilla/src/base/index.ts#L37)
+Defined in: [packages/vanilla/src/base/index.ts:38](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/vanilla/src/base/index.ts#L38)
 
 Horizontal track functions.
 
@@ -104,6 +106,6 @@ Horizontal track functions.
 trackY: CreateTrackY;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:41](https://github.com/alpheustangs/scrolia/blob/6e40d863f64abf882be181a26502e5d480dddfc9/packages/vanilla/src/base/index.ts#L41)
+Defined in: [packages/vanilla/src/base/index.ts:42](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/vanilla/src/base/index.ts#L42)
 
 Vertical track functions.

@@ -6,6 +6,6 @@
 const ThumbX: React.ForwardRefExoticComponent<ThumbXProps & React.RefAttributes<View>>;
 ```
 
-Defined in: packages/react-native-core-thumb/dist/types/thumbX/index.d.ts:5
+Defined in: packages/react-native-core-thumb/dist/types/thumbX/index.d.ts:6
 
 Horizontal thumb component.

@@ -7,6 +7,7 @@ import * as React from "react";
 
 import { useScrollCore } from "#/contexts";
 
+/** Props for `TrackY` component. */
 type TrackYProps = React.HTMLAttributes<HTMLDivElement> & {
     ref?: React.Ref<HTMLDivElement>;
 };

@@ -6,4 +6,6 @@
 type IndividualOptions = Format<Partial<Omit<CompleteIndividualOptions, "thumbColor"> & object>>;
 ```
 
-Defined in: packages/react-native-core/dist/types/@types/options.d.ts:50
+Defined in: packages/react-native-core/dist/types/@types/options.d.ts:52
+
+Individual options for each axis.
