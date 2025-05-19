@@ -12,7 +12,7 @@ import { MARGIN, runByPosition } from "@scrolia/shared";
 
 import { ScrollCoreContext } from "#/contexts";
 
-/** Props for `Container` component. */
+/** Props for the `Container` component. */
 type ContainerProps = Format<
     Options &
         React.HTMLAttributes<HTMLDivElement> & {

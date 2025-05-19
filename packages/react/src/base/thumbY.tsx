@@ -9,7 +9,7 @@ import * as React from "react";
 
 import { useScrollCore } from "#/contexts";
 
-/** Props for `ThumbY` component. */
+/** Props for the `ThumbY` component. */
 type ThumbYProps = React.HTMLAttributes<HTMLDivElement> & {
     ref?: React.Ref<HTMLDivElement>;
 };

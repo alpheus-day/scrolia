@@ -6,19 +6,19 @@
 
 | Type Alias | Description |
 | ------ | ------ |
-| [ContainerProps](type-aliases/ContainerProps.md) | Props for `Container` component. |
-| [ContentProps](type-aliases/ContentProps.md) | Props for `Content` component. |
-| [OnActiveOptions](type-aliases/OnActiveOptions.md) | Options for `onActive` function. |
+| [ContainerProps](type-aliases/ContainerProps.md) | Props for the `Container` component. |
+| [ContentProps](type-aliases/ContentProps.md) | Props for the `Content` component. |
+| [OnActiveOptions](type-aliases/OnActiveOptions.md) | Options for the `onActive` function. |
 | [Options](type-aliases/Options.md) | Scrollbar options. |
-| [ScrollbarProps](type-aliases/ScrollbarProps.md) | Props for `Scrollbar` component. |
+| [ScrollbarProps](type-aliases/ScrollbarProps.md) | Props for the `Scrollbar` component. |
 | [ScrollCore](type-aliases/ScrollCore.md) | Core for internal logic. |
-| [ScrollCoreOptions](type-aliases/ScrollCoreOptions.md) | Options for `ScrollCore` context. |
-| [ScrollCoreStates](type-aliases/ScrollCoreStates.md) | States for `ScrollCore` context. |
-| [ScrollCoreStatesOptions](type-aliases/ScrollCoreStatesOptions.md) | Options for `ScrollCore` context states. |
-| [ThumbXProps](type-aliases/ThumbXProps.md) | Props for `ThumbX` component. |
-| [ThumbYProps](type-aliases/ThumbYProps.md) | Props for `ThumbY` component. |
-| [TrackXProps](type-aliases/TrackXProps.md) | Props for `TrackX` component. |
-| [TrackYProps](type-aliases/TrackYProps.md) | Props for `TrackY` component. |
+| [ScrollCoreOptions](type-aliases/ScrollCoreOptions.md) | Options for the `ScrollCore` context. |
+| [ScrollCoreStates](type-aliases/ScrollCoreStates.md) | States for the `ScrollCore` context. |
+| [ScrollCoreStatesOptions](type-aliases/ScrollCoreStatesOptions.md) | Options for the `ScrollCore` context states. |
+| [ThumbXProps](type-aliases/ThumbXProps.md) | Props for the `ThumbX` component. |
+| [ThumbYProps](type-aliases/ThumbYProps.md) | Props for the `ThumbY` component. |
+| [TrackXProps](type-aliases/TrackXProps.md) | Props for the `TrackX` component. |
+| [TrackYProps](type-aliases/TrackYProps.md) | Props for the `TrackY` component. |
 
 ## Variables
 
@@ -37,4 +37,4 @@
 | [ThumbY](functions/ThumbY.md) | Vertical thumb component. |
 | [TrackX](functions/TrackX.md) | Horizontal track component. |
 | [TrackY](functions/TrackY.md) | Vertical track component. |
-| [useScrollCore](functions/useScrollCore.md) | A hook for `ScrollCore` context. |
+| [useScrollCore](functions/useScrollCore.md) | Hook for using the `ScrollCore` context. |

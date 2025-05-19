@@ -6,9 +6,9 @@
 type ScrollCoreStates = object;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:19](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L19)
+Defined in: [packages/react/src/contexts/index.ts:19](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L19)
 
-States for `ScrollCore` context.
+States for the `ScrollCore` context.
 
 ## Properties
 
@@ -18,7 +18,7 @@ States for `ScrollCore` context.
 hvThumb: boolean;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:23](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L23)
+Defined in: [packages/react/src/contexts/index.ts:23](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L23)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [packages/react/src/contexts/index.ts:23](https://github.com/alpheus
 hvTrack: boolean;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:21](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L21)
+Defined in: [packages/react/src/contexts/index.ts:21](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L21)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/react/src/contexts/index.ts:21](https://github.com/alpheus
 isActive: boolean;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:33](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L33)
+Defined in: [packages/react/src/contexts/index.ts:33](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L33)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [packages/react/src/contexts/index.ts:33](https://github.com/alpheus
 options: ScrollCoreStatesOptions;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:20](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L20)
+Defined in: [packages/react/src/contexts/index.ts:20](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L20)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [packages/react/src/contexts/index.ts:20](https://github.com/alpheus
 scrollbarLength: number;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:29](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L29)
+Defined in: [packages/react/src/contexts/index.ts:29](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L29)
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: [packages/react/src/contexts/index.ts:29](https://github.com/alpheus
 scrollbarOffset: number;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:31](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L31)
+Defined in: [packages/react/src/contexts/index.ts:31](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L31)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/react/src/contexts/index.ts:31](https://github.com/alpheus
 setHvThumb: React.Dispatch<React.SetStateAction<boolean>>;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:24](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L24)
+Defined in: [packages/react/src/contexts/index.ts:24](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L24)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: [packages/react/src/contexts/index.ts:24](https://github.com/alpheus
 setHvTrack: React.Dispatch<React.SetStateAction<boolean>>;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:22](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L22)
+Defined in: [packages/react/src/contexts/index.ts:22](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L22)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: [packages/react/src/contexts/index.ts:22](https://github.com/alpheus
 setIsActive: React.Dispatch<React.SetStateAction<boolean>>;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:34](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L34)
+Defined in: [packages/react/src/contexts/index.ts:34](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L34)
 
 ***
 
@@ -108,7 +108,7 @@ Defined in: [packages/react/src/contexts/index.ts:34](https://github.com/alpheus
 setScrollbarLength: React.Dispatch<React.SetStateAction<number>>;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:30](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L30)
+Defined in: [packages/react/src/contexts/index.ts:30](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L30)
 
 ***
 
@@ -118,7 +118,7 @@ Defined in: [packages/react/src/contexts/index.ts:30](https://github.com/alpheus
 setScrollbarOffset: React.Dispatch<React.SetStateAction<number>>;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:32](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L32)
+Defined in: [packages/react/src/contexts/index.ts:32](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L32)
 
 ***
 
@@ -128,7 +128,7 @@ Defined in: [packages/react/src/contexts/index.ts:32](https://github.com/alpheus
 timeout: React.RefObject<NodeJS.Timeout | null>;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:25](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L25)
+Defined in: [packages/react/src/contexts/index.ts:25](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L25)
 
 ***
 
@@ -138,7 +138,7 @@ Defined in: [packages/react/src/contexts/index.ts:25](https://github.com/alpheus
 total: React.RefObject<number>;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:26](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L26)
+Defined in: [packages/react/src/contexts/index.ts:26](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L26)
 
 ***
 
@@ -148,7 +148,7 @@ Defined in: [packages/react/src/contexts/index.ts:26](https://github.com/alpheus
 view: React.RefObject<number>;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:27](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L27)
+Defined in: [packages/react/src/contexts/index.ts:27](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L27)
 
 ***
 
@@ -158,4 +158,4 @@ Defined in: [packages/react/src/contexts/index.ts:27](https://github.com/alpheus
 viewOffset: React.RefObject<number>;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:28](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/react/src/contexts/index.ts#L28)
+Defined in: [packages/react/src/contexts/index.ts:28](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react/src/contexts/index.ts#L28)

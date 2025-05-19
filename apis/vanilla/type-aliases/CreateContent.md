@@ -6,6 +6,6 @@
 type CreateContent = CreateComponent;
 ```
 
-Defined in: [packages/vanilla/src/base/components/content.ts:13](https://github.com/alpheustangs/scrolia/blob/99f515e4b0095d09a280c57c2fd0f9cf08d6dcf1/packages/vanilla/src/base/components/content.ts#L13)
+Defined in: [packages/vanilla/src/base/components/content.ts:13](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/vanilla/src/base/components/content.ts#L13)
 
-Result of `createContent` function.
+Result of the `createContent` function.

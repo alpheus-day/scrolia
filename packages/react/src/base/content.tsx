@@ -7,7 +7,7 @@ import * as React from "react";
 
 import { useScrollCore } from "#/contexts";
 
-/** Props for `Content` component. */
+/** Props for the `Content` component. */
 type ContentProps = React.HTMLAttributes<HTMLDivElement> & {
     ref?: React.Ref<HTMLDivElement>;
 };

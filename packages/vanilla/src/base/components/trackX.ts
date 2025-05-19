@@ -6,7 +6,7 @@ type CreateTrackXOptions = {
     core: Core;
 };
 
-/** Result of `createTrackX` function. */
+/** Result of the `createTrackX` function. */
 type CreateTrackX = CreateComponent;
 
 const createTrackX = (options: CreateTrackXOptions): CreateTrackX => {
