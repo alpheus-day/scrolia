@@ -9,19 +9,18 @@ const options: Options = {
     sourcemap: true,
     outDir: "./dist",
     platform: "browser",
+    tsconfig: "./tsconfig.json",
 };
 
 export default defineConfig([
     {
         ...options,
         format: "esm",
-        tsconfig: "./tsconfig.json",
     },
     {
         ...options,
         format: "cjs",
         dts: true,
-        tsconfig: "./tsconfig.cjs.json",
     },
     // cdn
     {
@@ -32,7 +31,6 @@ export default defineConfig([
         target: "es3",
         format: "cjs",
         noExternal: [/(.*)/],
-        tsconfig: "./tsconfig.cjs.json",
     },
     // cdn minify
     {
@@ -45,6 +43,5 @@ export default defineConfig([
         format: "cjs",
         sourcemap: false,
         noExternal: [/(.*)/],
-        tsconfig: "./tsconfig.cjs.json",
     },
 ]);

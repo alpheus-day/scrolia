@@ -29,7 +29,8 @@
             "require": "./dist/cjs/index.js"
         },
         "./css": "./dist/index.css",
-        "./dist/index.css": "./dist/index.css"
+        "./dist/index.css": "./dist/index.css",
+        "./package.json": "./package.json"
     },
     "main": "./dist/cjs/index.js",
     "module": "./dist/esm/index.mjs",

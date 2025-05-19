@@ -40,6 +40,17 @@ please refer to the [React documentation](./docs/react//README.md).
 For using Scrolia in React Native, 
 please refer to the [React Native documentation](./docs/react-native/README.md).
 
+## APIs
+
+For vanilla package APIs,
+please refer to the [Vanilla APIs](./apis/vanilla/README.md).
+
+For React package APIs,
+please refer to the [React APIs](./apis/react/README.md).
+
+For React Native package APIs,
+please refer to the [React Native APIs](./apis/react-native/README.md).
+
 ## License
 
 This project is licensed under the terms of the MIT license.

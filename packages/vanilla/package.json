@@ -28,7 +28,8 @@
             "require": "./dist/index.js"
         },
         "./css": "./dist/index.css",
-        "./dist/index.css": "./dist/index.css"
+        "./dist/index.css": "./dist/index.css",
+        "./package.json": "./package.json"
     },
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",

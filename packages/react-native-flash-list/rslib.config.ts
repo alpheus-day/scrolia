@@ -7,9 +7,6 @@ export default defineConfig({
         {
             format: "esm",
             bundle: false,
-            source: {
-                tsconfigPath: "./tsconfig.json",
-            },
             output: {
                 distPath: {
                     root: "./dist/esm",
@@ -22,9 +19,6 @@ export default defineConfig({
             dts: {
                 distPath: "./dist/types",
             },
-            source: {
-                tsconfigPath: "./tsconfig.cjs.json",
-            },
             output: {
                 distPath: {
                     root: "./dist/cjs",
@@ -32,6 +26,9 @@ export default defineConfig({
             },
         },
     ],
+    source: {
+        tsconfigPath: "./tsconfig.json",
+    },
     output: {
         sourceMap: true,
         target: "web",

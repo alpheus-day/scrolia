@@ -28,6 +28,10 @@
         "build:native:pkg": "cd packages/react-native && rslib build",
         "build:native:fl": "cd packages/react-native-flash-list && rslib build",
         "build:native:rt": "cd packages/react-native-reanimated-thumb && rslib build",
+        "api": "npm-run-all --parallel api:vanilla api:react api:native",
+        "api:vanilla": "cd packages/vanilla && typedoc",
+        "api:react": "cd packages/react && typedoc",
+        "api:native": "cd packages/react-native && typedoc",
         "": ""
     },
     "devDependencies": {
@@ -41,6 +45,8 @@
         "npm-run-all2": "^8.0.2",
         "sass": "^1.89.0",
         "tsup": "^8.5.0",
+        "typedoc": "^0.28.4",
+        "typedoc-plugin-markdown": "^4.6.3",
         "typescript": "^5.8.3"
     }
 }
