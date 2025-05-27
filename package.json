@@ -48,7 +48,7 @@
         "npm-run-all2": "^8.0.4",
         "sass": "^1.89.0",
         "tsup": "^8.5.0",
-        "typedoc": "^0.28.4",
+        "typedoc": "^0.28.5",
         "typedoc-plugin-markdown": "^4.6.3",
         "typescript": "^5.8.3"
     }
