@@ -6,7 +6,7 @@
 type CreateScrollbar = object;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:22](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/vanilla/src/base/index.ts#L22)
+Defined in: [packages/vanilla/src/base/index.ts:22](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/vanilla/src/base/index.ts#L22)
 
 Result of the `createScrollbar` function.
 
@@ -18,7 +18,7 @@ Result of the `createScrollbar` function.
 attach: (el) => () => void;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:26](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/vanilla/src/base/index.ts#L26)
+Defined in: [packages/vanilla/src/base/index.ts:26](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/vanilla/src/base/index.ts#L26)
 
 Attaches complete scrollbar function into the element.
 
@@ -46,7 +46,7 @@ Attaches complete scrollbar function into the element.
 container: CreateContainer;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:30](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/vanilla/src/base/index.ts#L30)
+Defined in: [packages/vanilla/src/base/index.ts:30](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/vanilla/src/base/index.ts#L30)
 
 Container functions.
 
@@ -58,7 +58,7 @@ Container functions.
 content: CreateContent;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:34](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/vanilla/src/base/index.ts#L34)
+Defined in: [packages/vanilla/src/base/index.ts:34](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/vanilla/src/base/index.ts#L34)
 
 Content functions.
 
@@ -70,7 +70,7 @@ Content functions.
 thumbX: CreateThumbX;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:46](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/vanilla/src/base/index.ts#L46)
+Defined in: [packages/vanilla/src/base/index.ts:46](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/vanilla/src/base/index.ts#L46)
 
 Horizontal thumb functions.
 
@@ -82,7 +82,7 @@ Horizontal thumb functions.
 thumbY: CreateThumbY;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:50](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/vanilla/src/base/index.ts#L50)
+Defined in: [packages/vanilla/src/base/index.ts:50](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/vanilla/src/base/index.ts#L50)
 
 Vertical thumb functions.
 
@@ -94,7 +94,7 @@ Vertical thumb functions.
 trackX: CreateTrackX;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:38](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/vanilla/src/base/index.ts#L38)
+Defined in: [packages/vanilla/src/base/index.ts:38](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/vanilla/src/base/index.ts#L38)
 
 Horizontal track functions.
 
@@ -106,6 +106,6 @@ Horizontal track functions.
 trackY: CreateTrackY;
 ```
 
-Defined in: [packages/vanilla/src/base/index.ts:42](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/vanilla/src/base/index.ts#L42)
+Defined in: [packages/vanilla/src/base/index.ts:42](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/vanilla/src/base/index.ts#L42)
 
 Vertical track functions.

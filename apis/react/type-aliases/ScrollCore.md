@@ -6,7 +6,7 @@
 type ScrollCore = object;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:41](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/react/src/contexts/index.ts#L41)
+Defined in: [packages/react/src/contexts/index.ts:41](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/react/src/contexts/index.ts#L41)
 
 Core for internal logic.
 
@@ -18,7 +18,7 @@ Core for internal logic.
 options: ScrollCoreOptions;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:42](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/react/src/contexts/index.ts#L42)
+Defined in: [packages/react/src/contexts/index.ts:42](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/react/src/contexts/index.ts#L42)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [packages/react/src/contexts/index.ts:42](https://github.com/alpheus
 ref: React.RefObject<HTMLDivElement | null>;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:43](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/react/src/contexts/index.ts#L43)
+Defined in: [packages/react/src/contexts/index.ts:43](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/react/src/contexts/index.ts#L43)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/react/src/contexts/index.ts:43](https://github.com/alpheus
 x: ScrollCoreStates;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:44](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/react/src/contexts/index.ts#L44)
+Defined in: [packages/react/src/contexts/index.ts:44](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/react/src/contexts/index.ts#L44)
 
 ***
 
@@ -48,4 +48,4 @@ Defined in: [packages/react/src/contexts/index.ts:44](https://github.com/alpheus
 y: ScrollCoreStates;
 ```
 
-Defined in: [packages/react/src/contexts/index.ts:45](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/react/src/contexts/index.ts#L45)
+Defined in: [packages/react/src/contexts/index.ts:45](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/react/src/contexts/index.ts#L45)

@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@apst/biome':
-        specifier: ~0.2.0
-        version: 0.2.0(@biomejs/biome@1.9.4)
+        specifier: ~0.2.1
+        version: 0.2.1(@biomejs/biome@1.9.4)
       '@apst/tsconfig':
-        specifier: ~0.1.1
-        version: 0.1.1(typescript@5.8.3)
+        specifier: ~0.1.2
+        version: 0.1.2(typescript@5.8.3)
       '@biomejs/biome':
         specifier: ^1.9.4
         version: 1.9.4
@@ -344,7 +344,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: ~19
-        version: 19.0.14
+        version: 19.1.6
       react:
         specifier: 19.0.0
         version: 19.0.0
@@ -475,16 +475,16 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@apst/biome@0.2.0':
-    resolution: {integrity: sha512-qYuD6IyHzbBrg4yImH/ot5orqOZTDgYmxNZXfg5bRUI4BDEZFXzV8tUhD6wJ8GXYgtvzKZKYzVFCnqN5ietqUA==}
+  '@apst/biome@0.2.1':
+    resolution: {integrity: sha512-xovUdOD7TgslUMMcVFI7gd6MpfW7Q3NQja1MXGdYakF6p4eR6Qn1QTVW1C+xRep8z6LfLi6PWHHZDJT56eGmfA==}
     peerDependencies:
       '@biomejs/biome': '>=1.9.0'
     peerDependenciesMeta:
       '@biomejs/biome':
         optional: true
 
-  '@apst/tsconfig@0.1.1':
-    resolution: {integrity: sha512-IqjxEwFV5pOAIE53CLKkGobs+CYsUv34yOLXd/kVn79oENxZPQdbKhY3vQTNxtMGjh2kk+OvdNYgcEIzwLA6uQ==}
+  '@apst/tsconfig@0.1.2':
+    resolution: {integrity: sha512-Hmdovl3h6r+66QYHVgIiQv9YmT0zBdKEBDORhD7nqI8wfS6GN30pA1ghEquIqfeDrKwCBsETyb1JLpRbbB6wiA==}
     peerDependencies:
       typescript: '>=5'
     peerDependenciesMeta:
@@ -1102,10 +1102,6 @@ packages:
 
   '@babel/types@7.27.0':
     resolution: {integrity: sha512-H45s8fVLYjbhFH62dIJ3WtmJ6RSPt/3DRO0ZcT2SUiYiQyz3BLVb9ADEnLl91m74aQPS3AzzeajZHYOalWe3bg==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/types@7.27.1':
-    resolution: {integrity: sha512-+EzkxvLNfiUeKMgy/3luqfsCWFRXLb7U6wNQTk60tovuckwB15B191tJWvpp4HjiQWdJkCxO3Wbvc6jlk3Xb2Q==}
     engines: {node: '>=6.9.0'}
 
   '@babel/types@7.27.3':
@@ -2464,6 +2460,9 @@ packages:
 
   '@types/react@19.0.14':
     resolution: {integrity: sha512-ixLZ7zG7j1fM0DijL9hDArwhwcCb4vqmePgwtV0GfnkHRSCUEv4LvzarcTdhoqgyMznUx/EhoTUv31CKZzkQlw==}
+
+  '@types/react@19.1.6':
+    resolution: {integrity: sha512-JeG0rEWak0N6Itr6QUx+X60uQmN+5t3j9r/OVDtWzFXKaj6kD1BwJzOksD0FF6iWxZlbE1kB0q9vtnU2ekqa1Q==}
 
   '@types/stack-utils@2.0.3':
     resolution: {integrity: sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw==}
@@ -5652,11 +5651,11 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@apst/biome@0.2.0(@biomejs/biome@1.9.4)':
+  '@apst/biome@0.2.1(@biomejs/biome@1.9.4)':
     optionalDependencies:
       '@biomejs/biome': 1.9.4
 
-  '@apst/tsconfig@0.1.1(typescript@5.8.3)':
+  '@apst/tsconfig@0.1.2(typescript@5.8.3)':
     optionalDependencies:
       typescript: 5.8.3
 
@@ -5862,7 +5861,7 @@ snapshots:
 
   '@babel/helper-wrap-function@7.25.9':
     dependencies:
-      '@babel/template': 7.27.2
+      '@babel/template': 7.27.0
       '@babel/traverse': 7.27.0
       '@babel/types': 7.27.3
     transitivePeerDependencies:
@@ -6082,7 +6081,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.25.2
       '@babel/helper-plugin-utils': 7.26.5
-      '@babel/template': 7.27.2
+      '@babel/template': 7.27.0
 
   '@babel/plugin-transform-destructuring@7.25.9(@babel/core@7.25.2)':
     dependencies:
@@ -6222,7 +6221,7 @@ snapshots:
       '@babel/helper-module-imports': 7.25.9
       '@babel/helper-plugin-utils': 7.26.5
       '@babel/plugin-syntax-jsx': 7.25.9(@babel/core@7.25.2)
-      '@babel/types': 7.27.1
+      '@babel/types': 7.27.3
     transitivePeerDependencies:
       - supports-color
 
@@ -6373,11 +6372,6 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
-
-  '@babel/types@7.27.1':
-    dependencies:
-      '@babel/helper-string-parser': 7.27.1
-      '@babel/helper-validator-identifier': 7.27.1
 
   '@babel/types@7.27.3':
     dependencies:
@@ -8031,6 +8025,10 @@ snapshots:
       csstype: 3.1.3
 
   '@types/react@19.0.14':
+    dependencies:
+      csstype: 3.1.3
+
+  '@types/react@19.1.6':
     dependencies:
       csstype: 3.1.3
 

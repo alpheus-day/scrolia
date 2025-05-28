@@ -6,7 +6,7 @@
 type OnActiveOptions = object;
 ```
 
-Defined in: [packages/react/src/@types/options.ts:25](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/react/src/@types/options.ts#L25)
+Defined in: [packages/react/src/@types/options.ts:25](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/react/src/@types/options.ts#L25)
 
 Options for the `onActive` function.
 
@@ -18,6 +18,6 @@ Options for the `onActive` function.
 isActive: boolean;
 ```
 
-Defined in: [packages/react/src/@types/options.ts:29](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/react/src/@types/options.ts#L29)
+Defined in: [packages/react/src/@types/options.ts:29](https://github.com/alpheusday/scrolia/blob/a1d15b8008e894d5dd6b0e61a1c2164d92ca7b98/packages/react/src/@types/options.ts#L29)
 
 Whether the scrollbar is active or not.
