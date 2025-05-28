@@ -38,7 +38,7 @@
     "files": ["dist"],
     "dependencies": {
         "@scrolia/shared": "workspace:~",
-        "ts-vista": "~0.2.0"
+        "ts-vista": "~0.2.1"
     },
     "devDependencies": {
         "@types/react": "^18",

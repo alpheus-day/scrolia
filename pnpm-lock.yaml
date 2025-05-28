@@ -339,8 +339,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       ts-vista:
-        specifier: ~0.2.0
-        version: 0.2.0
+        specifier: ~0.2.1
+        version: 0.2.1
     devDependencies:
       '@types/react':
         specifier: ~19
@@ -358,8 +358,8 @@ importers:
         specifier: workspace:~
         version: link:../react-native-core-thumb
       ts-vista:
-        specifier: ~0.2.0
-        version: 0.2.0
+        specifier: ~0.2.1
+        version: 0.2.1
     devDependencies:
       '@types/react':
         specifier: ^18
@@ -377,8 +377,8 @@ importers:
         specifier: workspace:~
         version: link:../shared
       ts-vista:
-        specifier: ~0.2.0
-        version: 0.2.0
+        specifier: ~0.2.1
+        version: 0.2.1
     devDependencies:
       '@types/react':
         specifier: ^18
@@ -458,8 +458,8 @@ importers:
         specifier: workspace:~
         version: link:../shared
       ts-vista:
-        specifier: ~0.2.0
-        version: 0.2.0
+        specifier: ~0.2.1
+        version: 0.2.1
 
 packages:
 
@@ -5250,6 +5250,9 @@ packages:
 
   ts-vista@0.2.0:
     resolution: {integrity: sha512-1uSNTawRQ/0clp5iT6jZHNpsTaAnUC+eNi/CtsMcJily9Lyx/ucs99celkwJclyRY+0D4qfSEDWZFiiDUsv93w==}
+
+  ts-vista@0.2.1:
+    resolution: {integrity: sha512-zIwTKJVCMRIzgqbb6h4g4RRWFdzGABxqOrTIQXxoq+HIhPQ612N/KxVeiNB4t4ZVxGqg8eLU/gi8vcTR2aDU2Q==}
 
   tsconfck@3.0.2:
     resolution: {integrity: sha512-6lWtFjwuhS3XI4HsX4Zg0izOI3FU/AI9EGVlPEUMDIhvLPMD4wkiof0WCoDgW7qY+Dy198g4d9miAqUHWHFH6Q==}
@@ -11101,6 +11104,8 @@ snapshots:
   ts-pattern@5.0.8: {}
 
   ts-vista@0.2.0: {}
+
+  ts-vista@0.2.1: {}
 
   tsconfck@3.0.2(typescript@5.8.3):
     optionalDependencies:
