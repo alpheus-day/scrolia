@@ -6,7 +6,7 @@
 const ReanimatedThumbY: React.ForwardRefExoticComponent<ReanimatedThumbYProps & React.RefAttributes<View>>;
 ```
 
-Defined in: [thumbY/index.tsx:89](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react-native-reanimated-thumb/src/thumbY/index.tsx#L89)
+Defined in: [thumbY/index.tsx:89](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/react-native-reanimated-thumb/src/thumbY/index.tsx#L89)
 
 Vertical thumb component based on `react-native-reanimated`.
 

@@ -6,6 +6,6 @@
 type CreateTrackX = CreateComponent;
 ```
 
-Defined in: [packages/vanilla/src/base/components/trackX.ts:10](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/vanilla/src/base/components/trackX.ts#L10)
+Defined in: [packages/vanilla/src/base/components/trackX.ts:10](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/vanilla/src/base/components/trackX.ts#L10)
 
 Result of the `createTrackX` function.

@@ -6,7 +6,7 @@
 type ListXProps<T> = FlatListProps<T>;
 ```
 
-Defined in: [packages/react-native/src/base/listX.tsx:18](https://github.com/alpheustangs/scrolia/blob/e478c3598c4b753ead9de3dc691e6078680b80a3/packages/react-native/src/base/listX.tsx#L18)
+Defined in: [packages/react-native/src/base/listX.tsx:18](https://github.com/alpheus-day/scrolia/blob/a7062c82222b0dcb500e88f7ca3fff69b13a5fcd/packages/react-native/src/base/listX.tsx#L18)
 
 Props for the `ListX` component.
 

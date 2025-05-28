@@ -12,11 +12,11 @@
         "js",
         "javascript"
     ],
-    "homepage": "https://github.com/alpheustangs/scrolia",
-    "bugs": "https://github.com/alpheustangs/scrolia/issues",
+    "homepage": "https://github.com/alpheus-day/scrolia",
+    "bugs": "https://github.com/alpheus-day/scrolia/issues",
     "repository": {
         "type": "git",
-        "url": "https://github.com/alpheustangs/scrolia.git",
+        "url": "https://github.com/alpheus-day/scrolia.git",
         "directory": "packages/vanilla"
     },
     "license": "MIT",
