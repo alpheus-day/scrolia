@@ -38,7 +38,7 @@
         "": ""
     },
     "devDependencies": {
-        "@apst/biome": "~0.1.0",
+        "@apst/biome": "~0.2.0",
         "@apst/tsconfig": "~0.1.0",
         "@biomejs/biome": "^1.9.4",
         "@microsoft/api-extractor": "^7.52.8",
