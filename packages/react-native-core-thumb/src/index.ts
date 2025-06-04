@@ -1,21 +1,21 @@
 // X
 
-export type { ThumbXProps } from "#/thumbX";
-export { ThumbX } from "#/thumbX";
+export type { ThumbXProps } from "#/thumb-x";
+export { ThumbX } from "#/thumb-x";
 
-export type { AnimatedThumbXProps } from "#/thumbX/animated";
-export { AnimatedThumbX } from "#/thumbX/animated";
+export type { AnimatedThumbXProps } from "#/thumb-x/animated";
+export { AnimatedThumbX } from "#/thumb-x/animated";
 
-export type { UnanimatedThumbXProps } from "#/thumbX/unanimated";
-export { UnanimatedThumbX } from "#/thumbX/unanimated";
+export type { UnanimatedThumbXProps } from "#/thumb-x/unanimated";
+export { UnanimatedThumbX } from "#/thumb-x/unanimated";
 
 // Y
 
-export type { ThumbYProps } from "#/thumbY";
-export { ThumbY } from "#/thumbY";
+export type { ThumbYProps } from "#/thumb-y";
+export { ThumbY } from "#/thumb-y";
 
-export type { AnimatedThumbYProps } from "#/thumbY/animated";
-export { AnimatedThumbY } from "#/thumbY/animated";
+export type { AnimatedThumbYProps } from "#/thumb-y/animated";
+export { AnimatedThumbY } from "#/thumb-y/animated";
 
-export type { UnanimatedThumbYProps } from "#/thumbY/unanimated";
-export { UnanimatedThumbY } from "#/thumbY/unanimated";
+export type { UnanimatedThumbYProps } from "#/thumb-y/unanimated";
+export { UnanimatedThumbY } from "#/thumb-y/unanimated";

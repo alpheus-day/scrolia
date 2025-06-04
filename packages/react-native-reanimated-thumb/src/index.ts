@@ -1,5 +1,5 @@
-export type { ReanimatedThumbXProps } from "#/thumbX";
-export { ReanimatedThumbX } from "#/thumbX";
+export type { ReanimatedThumbXProps } from "#/thumb-x";
+export { ReanimatedThumbX } from "#/thumb-x";
 
-export type { ReanimatedThumbYProps } from "#/thumbY";
-export { ReanimatedThumbY } from "#/thumbY";
+export type { ReanimatedThumbYProps } from "#/thumb-y";
+export { ReanimatedThumbY } from "#/thumb-y";

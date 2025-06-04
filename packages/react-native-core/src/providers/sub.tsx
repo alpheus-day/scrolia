@@ -11,7 +11,7 @@ import type { CoreContextType } from "#/contexts/core";
 import * as React from "react";
 
 import { useCoreContext } from "#/contexts/core";
-import { SubCoreContext } from "#/contexts/coreSub";
+import { SubCoreContext } from "#/contexts/core-sub";
 
 type SubProps = {
     children: React.ReactNode;

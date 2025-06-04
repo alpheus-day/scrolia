@@ -18,7 +18,7 @@ export type {
     ScrollCoreOptions,
 } from "#/contexts/core";
 
-export type { SubScrollCoreStates } from "#/contexts/coreSub";
+export type { SubScrollCoreStates } from "#/contexts/core-sub";
 
 export type {
     ScrollCoreStates,
@@ -27,9 +27,9 @@ export type {
 
 export { useScrollCore } from "#/hooks/core";
 
-export { usePanResponderX } from "#/hooks/panX";
+export { usePanResponderX } from "#/hooks/pan-x";
 
-export { usePanResponderY } from "#/hooks/panY";
+export { usePanResponderY } from "#/hooks/pan-y";
 
 export type { ScrollCoreProviderProps } from "#/providers";
 export { ScrollCoreProvider } from "#/providers";

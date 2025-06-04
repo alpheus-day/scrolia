@@ -12,17 +12,14 @@ import type { ScrollCore } from "@scrolia/react-native-core";
 import * as React from "react";
 
 import { usePanResponderX, useScrollCore } from "@scrolia/react-native-core";
-import { UnanimatedThumbX } from "@scrolia/react-native-core-thumb";
 
-import { AnimatedThumbX } from "#/thumbX//animated";
+import { AnimatedThumbX } from "#/thumb-x/animated";
+import { UnanimatedThumbX } from "#/thumb-x/unanimated";
 
-/** Props for the `ReanimatedThumbX` component. */
-type ReanimatedThumbXProps = ViewProps;
+/** Props for the `ThumbX` component. */
+type ThumbXProps = ViewProps;
 
-const Thumb = (
-    props: ReanimatedThumbXProps,
-    ref: React.Ref<View>,
-): React.JSX.Element => {
+const Thumb = (props: ThumbXProps, ref: React.Ref<View>): React.JSX.Element => {
     const { children, ...p } = props;
 
     const core: ScrollCore = useScrollCore();
@@ -81,16 +78,12 @@ const Thumb = (
     );
 };
 
-/**
- * Horizontal thumb component based on `react-native-reanimated`.
- *
- * **This component requires `react-native-reanimated` to be installed.**
- */
-const ReanimatedThumbX: React.ForwardRefExoticComponent<
-    ReanimatedThumbXProps & React.RefAttributes<View>
+/** Horizontal thumb component. */
+const ThumbX: React.ForwardRefExoticComponent<
+    ThumbXProps & React.RefAttributes<View>
 > = React.forwardRef(Thumb);
 
-ReanimatedThumbX.displayName = "ReanimatedThumbX";
+ThumbX.displayName = "ThumbX";
 
-export type { ReanimatedThumbXProps };
-export { ReanimatedThumbX };
+export type { ThumbXProps };
+export { ThumbX };

@@ -8,23 +8,23 @@ export { styles } from "@scrolia/react-native-core";
 export type { ContainerProps } from "#/base/container";
 export { Container } from "#/base/container";
 
-export type { ContentXProps } from "#/base/contentX";
-export { ContentX } from "#/base/contentX";
+export type { ContentXProps } from "#/base/content-x";
+export { ContentX } from "#/base/content-x";
 
-export type { ContentYProps } from "#/base/contentY";
-export { ContentY } from "#/base/contentY";
+export type { ContentYProps } from "#/base/content-y";
+export { ContentY } from "#/base/content-y";
 
-export type { ListXProps } from "#/base/listX";
-export { ListX } from "#/base/listX";
+export type { ListXProps } from "#/base/list-x";
+export { ListX } from "#/base/list-x";
 
-export type { ListYProps } from "#/base/listY";
-export { ListY } from "#/base/listY";
+export type { ListYProps } from "#/base/list-y";
+export { ListY } from "#/base/list-y";
 
-export type { TrackXProps } from "#/base/trackX";
-export { TrackX } from "#/base/trackX";
+export type { TrackXProps } from "#/base/track-x";
+export { TrackX } from "#/base/track-x";
 
-export type { TrackYProps } from "#/base/trackY";
-export { TrackY } from "#/base/trackY";
+export type { TrackYProps } from "#/base/track-y";
+export { TrackY } from "#/base/track-y";
 
 export type {
     ThumbXProps,

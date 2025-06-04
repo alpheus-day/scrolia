@@ -10,6 +10,16 @@ const options: Options = {
     outDir: "./dist",
     platform: "browser",
     tsconfig: "./tsconfig.json",
+    treeshake: true,
+};
+
+const iifeOptions: Options = {
+    ...options,
+    target: "es5",
+    outExtension: () => ({ js: ".js" }),
+    format: "iife",
+    sourcemap: false,
+    globalName: "scrolia",
 };
 
 export default defineConfig([
@@ -22,26 +32,19 @@ export default defineConfig([
         format: "cjs",
         dts: true,
     },
-    // cdn
+    // iife
     {
-        ...options,
+        ...iifeOptions,
         entry: {
-            scrolia: "./src/cdn.ts",
+            scrolia: "./src/index.ts",
         },
-        target: "es3",
-        format: "cjs",
-        noExternal: [/(.*)/],
     },
-    // cdn minify
+    // iife minify
     {
-        ...options,
+        ...iifeOptions,
         entry: {
-            "scrolia.min": "./src/cdn.ts",
+            "scrolia.min": "./src/index.ts",
         },
-        target: "es3",
         minify: true,
-        format: "cjs",
-        sourcemap: false,
-        noExternal: [/(.*)/],
     },
 ]);

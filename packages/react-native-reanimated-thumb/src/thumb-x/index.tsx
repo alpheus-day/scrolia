@@ -11,24 +11,27 @@ import type { ScrollCore } from "@scrolia/react-native-core";
 
 import * as React from "react";
 
-import { usePanResponderY, useScrollCore } from "@scrolia/react-native-core";
+import { usePanResponderX, useScrollCore } from "@scrolia/react-native-core";
+import { UnanimatedThumbX } from "@scrolia/react-native-core-thumb";
 
-import { AnimatedThumbY } from "#/thumbY/animated";
-import { UnanimatedThumbY } from "#/thumbY/unanimated";
+import { AnimatedThumbX } from "#/thumb-x/animated";
 
-/** Props for the `ThumbY` component. */
-type ThumbYProps = ViewProps;
+/** Props for the `ReanimatedThumbX` component. */
+type ReanimatedThumbXProps = ViewProps;
 
-const Thumb = (props: ThumbYProps, ref: React.Ref<View>): React.JSX.Element => {
+const Thumb = (
+    props: ReanimatedThumbXProps,
+    ref: React.Ref<View>,
+): React.JSX.Element => {
     const { children, ...p } = props;
 
     const core: ScrollCore = useScrollCore();
 
     const { noAnimation } = core.options;
 
-    const { setHvThumb, setThumbHover } = core.y;
+    const { setHvThumb, setThumbHover } = core.x;
 
-    const panResponderRaw: PanResponderInstance = usePanResponderY();
+    const panResponderRaw: PanResponderInstance = usePanResponderX();
 
     React.useEffect((): void => {
         setHvThumb(true);
@@ -50,7 +53,7 @@ const Thumb = (props: ThumbYProps, ref: React.Ref<View>): React.JSX.Element => {
     if (noAnimation) {
         return (
             <>
-                <UnanimatedThumbY
+                <UnanimatedThumbX
                     {...p}
                     {...panResponder.panHandlers}
                     ref={ref}
@@ -58,14 +61,14 @@ const Thumb = (props: ThumbYProps, ref: React.Ref<View>): React.JSX.Element => {
                     onPointerLeave={handlePointerLeave}
                 >
                     {children}
-                </UnanimatedThumbY>
+                </UnanimatedThumbX>
             </>
         );
     }
 
     return (
         <>
-            <AnimatedThumbY
+            <AnimatedThumbX
                 {...p}
                 {...panResponder.panHandlers}
                 ref={ref}
@@ -73,17 +76,21 @@ const Thumb = (props: ThumbYProps, ref: React.Ref<View>): React.JSX.Element => {
                 onPointerLeave={handlePointerLeave}
             >
                 {children}
-            </AnimatedThumbY>
+            </AnimatedThumbX>
         </>
     );
 };
 
-/** Vertical thumb component. */
-const ThumbY: React.ForwardRefExoticComponent<
-    ThumbYProps & React.RefAttributes<View>
+/**
+ * Horizontal thumb component based on `react-native-reanimated`.
+ *
+ * **This component requires `react-native-reanimated` to be installed.**
+ */
+const ReanimatedThumbX: React.ForwardRefExoticComponent<
+    ReanimatedThumbXProps & React.RefAttributes<View>
 > = React.forwardRef(Thumb);
 
-ThumbY.displayName = "ThumbY";
+ReanimatedThumbX.displayName = "ReanimatedThumbX";
 
-export type { ThumbYProps };
-export { ThumbY };
+export type { ReanimatedThumbXProps };
+export { ReanimatedThumbX };

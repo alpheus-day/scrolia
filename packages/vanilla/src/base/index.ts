@@ -2,10 +2,10 @@ import type { Core, CoreOptions, CoreStatesOptions } from "#/@types/core";
 import type { Options } from "#/@types/options";
 import type { CreateContainer } from "#/base/components/container";
 import type { CreateContent } from "#/base/components/content";
-import type { CreateThumbX } from "#/base/components/thumbX";
-import type { CreateThumbY } from "#/base/components/thumbY";
-import type { CreateTrackX } from "#/base/components/trackX";
-import type { CreateTrackY } from "#/base/components/trackY";
+import type { CreateThumbX } from "#/base/components/thumb-x";
+import type { CreateThumbY } from "#/base/components/thumb-y";
+import type { CreateTrackX } from "#/base/components/track-x";
+import type { CreateTrackY } from "#/base/components/track-y";
 
 import { signal } from "@preact/signals-core";
 
@@ -13,10 +13,10 @@ import { MARGIN } from "@scrolia/shared";
 
 import { createContainer } from "#/base/components/container";
 import { createContent } from "#/base/components/content";
-import { createThumbX } from "#/base/components/thumbX";
-import { createThumbY } from "#/base/components/thumbY";
-import { createTrackX } from "#/base/components/trackX";
-import { createTrackY } from "#/base/components/trackY";
+import { createThumbX } from "#/base/components/thumb-x";
+import { createThumbY } from "#/base/components/thumb-y";
+import { createTrackX } from "#/base/components/track-x";
+import { createTrackY } from "#/base/components/track-y";
 
 /** Result of the `createScrollbar` function. */
 type CreateScrollbar = {

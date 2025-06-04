@@ -5,10 +5,10 @@ import type { Options } from "#/@types/options";
 
 import { Container } from "#/base/container";
 import { Content } from "#/base/content";
-import { ThumbX } from "#/base/thumbX";
-import { ThumbY } from "#/base/thumbY";
-import { TrackX } from "#/base/trackX";
-import { TrackY } from "#/base/trackY";
+import { ThumbX } from "#/base/thumb-x";
+import { ThumbY } from "#/base/thumb-y";
+import { TrackX } from "#/base/track-x";
+import { TrackY } from "#/base/track-y";
 
 /** Props for the `Scrollbar` component. */
 type ScrollbarProps = Format<

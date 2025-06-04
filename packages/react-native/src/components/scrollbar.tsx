@@ -6,10 +6,10 @@ import type { Options } from "@scrolia/react-native-core";
 import { ThumbX, ThumbY } from "@scrolia/react-native-core-thumb";
 
 import { Container } from "#/base/container";
-import { ContentX } from "#/base/contentX";
-import { ContentY } from "#/base/contentY";
-import { TrackX } from "#/base/trackX";
-import { TrackY } from "#/base/trackY";
+import { ContentX } from "#/base/content-x";
+import { ContentY } from "#/base/content-y";
+import { TrackX } from "#/base/track-x";
+import { TrackY } from "#/base/track-y";
 
 /** Props for the `Scrollbar` component. */
 type ScrollbarProps = Format<

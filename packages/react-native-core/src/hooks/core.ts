@@ -10,7 +10,7 @@ import {
     SubCoreContext,
     type SubCoreContextType,
     type SubScrollCoreStates,
-} from "#/contexts/coreSub";
+} from "#/contexts/core-sub";
 
 import * as React from "react";
 

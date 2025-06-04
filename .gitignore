@@ -2,11 +2,11 @@
 __MACOSX/
 .DS_Store
 
-# Builds
-dist/
-
 # Modules
 node_modules/
+
+# Builds
+dist/
 
 # Expo
 .expo/
