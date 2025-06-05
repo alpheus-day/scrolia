@@ -15,7 +15,7 @@ updates:
           - dependency-name: "@rsbuild/plugin-react"
           - dependency-name: "@rslib/core"
           - dependency-name: "@swc/core"
-          - dependency-name: "npm-run-all2"
+          - dependency-name: "@typescript/native-preview"
           - dependency-name: "sass"
           - dependency-name: "tsup"
           - dependency-name: "typedoc"
