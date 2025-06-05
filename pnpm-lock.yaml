@@ -30,8 +30,8 @@ importers:
         specifier: ^1.11.29
         version: 1.11.29(@swc/helpers@0.5.17)
       '@typescript/native-preview':
-        specifier: 7.0.0-dev.20250604.1
-        version: 7.0.0-dev.20250604.1
+        specifier: 7.0.0-dev.20250605.1
+        version: 7.0.0-dev.20250605.1
       sass:
         specifier: ^1.89.1
         version: 1.89.1
@@ -1106,6 +1106,10 @@ packages:
 
   '@babel/types@7.27.3':
     resolution: {integrity: sha512-Y1GkI4ktrtvmawoSq+4FCVHNryea6uR+qUQy0AGxLSsjCX0nVmkYQMBLHDkXZuo5hGx7eYdnIaslsdBFm7zbUw==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/types@7.27.6':
+    resolution: {integrity: sha512-ETyHEk2VHHvl9b9jZP5IHPavHYk57EhanlRRuae9XCpb/j5bDCbPPMOBfCWhnl/7EDJz0jEMCi/RhccCE8r1+Q==}
     engines: {node: '>=6.9.0'}
 
   '@biomejs/biome@1.9.4':
@@ -2482,50 +2486,50 @@ packages:
   '@types/yargs@17.0.33':
     resolution: {integrity: sha512-WpxBCKWPLr4xSsHgz511rFJAM+wS28w2zEO1QDNY5zM/S8ok70NNfztH0xwhqKyaK0OHCbN98LDAZuy1ctxDkA==}
 
-  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20250604.1':
-    resolution: {integrity: sha512-lg8kIHliFsef7lQEE5wCSe9bf7jIFurr+P4crY7uQhNt6dUB/JIaWYKEPIlALz0axiHTQczbBP9WKkklR1pw5A==}
+  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20250605.1':
+    resolution: {integrity: sha512-fkftk9+orn2beytfCCjgfprsybt8a0gybKoMm47YTuLz09QI/8ugclqYpu2Durs54UVLpssL+qZK+//aGbuiTQ==}
     engines: {node: '>=20.6.0'}
     cpu: [arm64]
     os: [darwin]
 
-  '@typescript/native-preview-darwin-x64@7.0.0-dev.20250604.1':
-    resolution: {integrity: sha512-a2vF3ty2vUcV5XxFwFKF0kTgKxI078u5azWfqB2x4k0Uetn283VZabABeyh7vcJzRegfoGU2z4YfkFI7kk/2Xw==}
+  '@typescript/native-preview-darwin-x64@7.0.0-dev.20250605.1':
+    resolution: {integrity: sha512-ubfzZKLv105zDT5AjO9wIIrLz4ehXd0lwV+Gu7qRws9Oq3ojPVzzQs/B8Vh4zl3R1Zn1bzm8fSkIs0+kO1Ik5g==}
     engines: {node: '>=20.6.0'}
     cpu: [x64]
     os: [darwin]
 
-  '@typescript/native-preview-linux-arm64@7.0.0-dev.20250604.1':
-    resolution: {integrity: sha512-+kUchjbmfDXA+CuJgoXpbQe5Mw1GthnXIVNJacc2pWYNpIMLM4CFlljhb8nGyzkpngA/HRjKaRDDWlmI5CPNlQ==}
+  '@typescript/native-preview-linux-arm64@7.0.0-dev.20250605.1':
+    resolution: {integrity: sha512-raRVls6Yx0zOt1Dj+xUOG6SAlq5B+dV731Re+86AfL0XQwWXU2YPK/QP8BRH4zv/PzOVzX274zBmTI6tSQC/1g==}
     engines: {node: '>=20.6.0'}
     cpu: [arm64]
     os: [linux]
 
-  '@typescript/native-preview-linux-arm@7.0.0-dev.20250604.1':
-    resolution: {integrity: sha512-LTEE8jHilteVxFrBUfY7SUC6N7yoep8KTxi/KtwdYkZouu5mgnkc6DQt3w+xRplGWzAvnA/n6F/ZpYhNR3zksw==}
+  '@typescript/native-preview-linux-arm@7.0.0-dev.20250605.1':
+    resolution: {integrity: sha512-kOHdWPxj/arjamt7s3p7DPDFZr84yAVxS1jHD2YWhwH/uotHu4RaFUYD+iYurl7b+B3numHFLwzWO9HvOXQbeQ==}
     engines: {node: '>=20.6.0'}
     cpu: [arm]
     os: [linux]
 
-  '@typescript/native-preview-linux-x64@7.0.0-dev.20250604.1':
-    resolution: {integrity: sha512-qnYF0HjFmbiwH35ISfWKmVOcPjAxEeFiJUoL5mIROL7jXTNwnq8HFcPcmgq0auUD8JA1LaNWQIRfScQwE/5e+w==}
+  '@typescript/native-preview-linux-x64@7.0.0-dev.20250605.1':
+    resolution: {integrity: sha512-DFJO78Lr5NgJFclOJyOev5h0sDEKpUmIq3UHBEP8IOnyjZiHfDSSOUajC3miEI0FqW7sq/Ocixm2Q3jPXx8EUA==}
     engines: {node: '>=20.6.0'}
     cpu: [x64]
     os: [linux]
 
-  '@typescript/native-preview-win32-arm64@7.0.0-dev.20250604.1':
-    resolution: {integrity: sha512-PSIEpLn8HK+1+aAupjZXY7bQE4LCtpAHfKJLSXQlJubDjGBrIyUB7MDFRwfgt0XSzxPnu6abGdvsyX5/t58ydw==}
+  '@typescript/native-preview-win32-arm64@7.0.0-dev.20250605.1':
+    resolution: {integrity: sha512-t0IGSeQ7UFpahbWj6HoWevpl3aWopFKqIc6jgdy4Fr6FGdg+js68PBpx2wul+u4U8iC2s9hq4a3RrA1Ffj2jUw==}
     engines: {node: '>=20.6.0'}
     cpu: [arm64]
     os: [win32]
 
-  '@typescript/native-preview-win32-x64@7.0.0-dev.20250604.1':
-    resolution: {integrity: sha512-J1kcAJOeAG7AEXu6x+ves+PBPVe+3jUjvk6aeJodd74cHHzVAsYD3hXA5Nb/S72hrDOjuINekJjUt/TT1Ot4EQ==}
+  '@typescript/native-preview-win32-x64@7.0.0-dev.20250605.1':
+    resolution: {integrity: sha512-9QNuKDE0qEyH7hGfMwWAxLh8QEEPaFBKRQ65J2TuNYk5MC+K83yhHZhgZhNjftC0Wqj3aD2/mtUdxJjSUsOlmQ==}
     engines: {node: '>=20.6.0'}
     cpu: [x64]
     os: [win32]
 
-  '@typescript/native-preview@7.0.0-dev.20250604.1':
-    resolution: {integrity: sha512-R17LdIt1fb0RbthR3/ymhqkIRNLMPB+ppLMAMto0AE9at5EVV/0JQtz0/P+Ll43jOtkRLIDrFQXPoikb5G/6cQ==}
+  '@typescript/native-preview@7.0.0-dev.20250605.1':
+    resolution: {integrity: sha512-JCxsGHd0pHC2H8fKRI9Ncw4gUyU6os4B2zp9o9hLlXVTyisdhoUmnznv91O5K1xBr1pmqZFqd6o7V4PCx8zZ8Q==}
     engines: {node: '>=20.6.0'}
     hasBin: true
 
@@ -5773,7 +5777,7 @@ snapshots:
   '@babel/generator@7.27.5':
     dependencies:
       '@babel/parser': 7.27.5
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
       jsesc: 3.1.0
@@ -5824,7 +5828,7 @@ snapshots:
   '@babel/helper-member-expression-to-functions@7.25.9':
     dependencies:
       '@babel/traverse': 7.27.0
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
     transitivePeerDependencies:
       - supports-color
 
@@ -5846,7 +5850,7 @@ snapshots:
 
   '@babel/helper-optimise-call-expression@7.25.9':
     dependencies:
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
 
   '@babel/helper-plugin-utils@7.26.5': {}
 
@@ -5889,7 +5893,7 @@ snapshots:
     dependencies:
       '@babel/template': 7.27.2
       '@babel/traverse': 7.27.0
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
     transitivePeerDependencies:
       - supports-color
 
@@ -5911,7 +5915,7 @@ snapshots:
 
   '@babel/parser@7.27.5':
     dependencies:
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
 
   '@babel/plugin-proposal-class-properties@7.18.6(@babel/core@7.25.2)':
     dependencies:
@@ -6368,7 +6372,7 @@ snapshots:
     dependencies:
       '@babel/code-frame': 7.27.1
       '@babel/parser': 7.27.5
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
 
   '@babel/traverse@7.27.0':
     dependencies:
@@ -6388,7 +6392,7 @@ snapshots:
       '@babel/generator': 7.27.5
       '@babel/parser': 7.27.5
       '@babel/template': 7.27.2
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
       debug: 4.4.1
       globals: 11.12.0
     transitivePeerDependencies:
@@ -6400,6 +6404,11 @@ snapshots:
       '@babel/helper-validator-identifier': 7.25.9
 
   '@babel/types@7.27.3':
+    dependencies:
+      '@babel/helper-string-parser': 7.27.1
+      '@babel/helper-validator-identifier': 7.27.1
+
+  '@babel/types@7.27.6':
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
@@ -8069,36 +8078,36 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
-  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20250604.1':
+  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20250605.1':
     optional: true
 
-  '@typescript/native-preview-darwin-x64@7.0.0-dev.20250604.1':
+  '@typescript/native-preview-darwin-x64@7.0.0-dev.20250605.1':
     optional: true
 
-  '@typescript/native-preview-linux-arm64@7.0.0-dev.20250604.1':
+  '@typescript/native-preview-linux-arm64@7.0.0-dev.20250605.1':
     optional: true
 
-  '@typescript/native-preview-linux-arm@7.0.0-dev.20250604.1':
+  '@typescript/native-preview-linux-arm@7.0.0-dev.20250605.1':
     optional: true
 
-  '@typescript/native-preview-linux-x64@7.0.0-dev.20250604.1':
+  '@typescript/native-preview-linux-x64@7.0.0-dev.20250605.1':
     optional: true
 
-  '@typescript/native-preview-win32-arm64@7.0.0-dev.20250604.1':
+  '@typescript/native-preview-win32-arm64@7.0.0-dev.20250605.1':
     optional: true
 
-  '@typescript/native-preview-win32-x64@7.0.0-dev.20250604.1':
+  '@typescript/native-preview-win32-x64@7.0.0-dev.20250605.1':
     optional: true
 
-  '@typescript/native-preview@7.0.0-dev.20250604.1':
+  '@typescript/native-preview@7.0.0-dev.20250605.1':
     optionalDependencies:
-      '@typescript/native-preview-darwin-arm64': 7.0.0-dev.20250604.1
-      '@typescript/native-preview-darwin-x64': 7.0.0-dev.20250604.1
-      '@typescript/native-preview-linux-arm': 7.0.0-dev.20250604.1
-      '@typescript/native-preview-linux-arm64': 7.0.0-dev.20250604.1
-      '@typescript/native-preview-linux-x64': 7.0.0-dev.20250604.1
-      '@typescript/native-preview-win32-arm64': 7.0.0-dev.20250604.1
-      '@typescript/native-preview-win32-x64': 7.0.0-dev.20250604.1
+      '@typescript/native-preview-darwin-arm64': 7.0.0-dev.20250605.1
+      '@typescript/native-preview-darwin-x64': 7.0.0-dev.20250605.1
+      '@typescript/native-preview-linux-arm': 7.0.0-dev.20250605.1
+      '@typescript/native-preview-linux-arm64': 7.0.0-dev.20250605.1
+      '@typescript/native-preview-linux-x64': 7.0.0-dev.20250605.1
+      '@typescript/native-preview-win32-arm64': 7.0.0-dev.20250605.1
+      '@typescript/native-preview-win32-x64': 7.0.0-dev.20250605.1
 
   '@urql/core@5.1.1':
     dependencies:
@@ -9864,7 +9873,7 @@ snapshots:
       '@babel/core': 7.25.2
       '@babel/generator': 7.27.5
       '@babel/parser': 7.27.5
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
       flow-enums-runtime: 0.0.6
       metro: 0.81.4
       metro-babel-transformer: 0.81.4
