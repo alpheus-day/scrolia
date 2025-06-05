@@ -19,15 +19,32 @@ native := "./packages/react-native/"
 native_fl := "./packages/react-native-flash-list/"
 native_rt := "./packages/react-native-reanimated-thumb/"
 
+eap_expo_c := "./examples/expo/common/"
+eap_expo_l := "./examples/expo/list/"
+eap_expo_lf := "./examples/expo/list-flash/"
+eap_expo_tr := "./examples/expo/thumb-reanimated/"
+
+eap_next_a := "./examples/next/app/"
+eap_next_p := "./examples/next/page/"
+
+eap_react_c := "./examples/react/common/"
+eap_react_p := "./examples/react/panda/"
+
+eap_v_c := "./examples/vanilla/common/"
+
 # Default action
 _:
     just lint
     just fmt
 
+# Install
+i:
+    pnpm install
+
 # Setup the project
 setup:
     brew install ls-lint typos-cli
-    pnpm install
+    just i
 
 # Lint with TypeScript Compiler
 tsc:
@@ -93,6 +110,23 @@ api:
 
 # Clean builds
 clean:
+    rm -rf ./{{eap_expo_c}}/.expo
+    rm -rf ./{{eap_expo_c}}/dist
+    rm -rf ./{{eap_expo_l}}/.expo
+    rm -rf ./{{eap_expo_l}}/dist
+    rm -rf ./{{eap_expo_lf}}/.expo
+    rm -rf ./{{eap_expo_lf}}/dist
+    rm -rf ./{{eap_expo_tr}}/.expo
+    rm -rf ./{{eap_expo_tr}}/dist
+    rm -rf ./{{eap_next_a}}/.next
+    rm -rf ./{{eap_next_a}}/dist
+    rm -rf ./{{eap_next_p}}/.next
+    rm -rf ./{{eap_next_p}}/dist
+    rm -rf ./{{eap_react_c}}/dist
+    rm -rf ./{{eap_react_p}}/.panda
+    rm -rf ./{{eap_react_p}}/dist
+    rm -rf ./{{eap_v_c}}/dist
+
     rm -rf ./{{shared}}/dist
     rm -rf ./{{vanilla}}/dist
     rm -rf ./{{alias}}/dist
@@ -106,6 +140,17 @@ clean:
 # Clean everything
 clean-all:
     rm -rf ./node_modules
+
+    rm -rf ./{{eap_expo_c}}/node_modules
+    rm -rf ./{{eap_expo_l}}/node_modules
+    rm -rf ./{{eap_expo_lf}}/node_modules
+    rm -rf ./{{eap_expo_tr}}/node_modules
+    rm -rf ./{{eap_next_a}}/node_modules
+    rm -rf ./{{eap_next_p}}/node_modules
+    rm -rf ./{{eap_react_c}}/node_modules
+    rm -rf ./{{eap_react_p}}/node_modules
+    rm -rf ./{{eap_v_c}}/node_modules
+
     rm -rf ./{{shared}}/node_modules
     rm -rf ./{{vanilla}}/node_modules
     rm -rf ./{{alias}}/node_modules
