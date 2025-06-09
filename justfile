@@ -75,10 +75,13 @@ build-shared:
 # Build vanilla package
 build-vanilla:
     cd ./{{vanilla}} && ../../{{tsup}}
+    cd ./{{vanilla}} && ../../{{sass}} --no-source-map static/index.scss:dist/index.css
+    cd ./{{vanilla}} && ../../{{sass}} --no-source-map --style=compressed static/index.scss:dist/index.min.css
 
 # Build React package
 build-react:
     cd ./{{react}} && ../../{{rslib}} build
+    cd ./{{react}} && ../../{{sass}} --no-source-map static/index.scss:dist/index.css
 
 # Build React Native packages
 build-native:
