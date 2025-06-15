@@ -11,7 +11,6 @@ typedoc := node_bin + "typedoc"
 
 shared := "./packages/shared/"
 vanilla := "./packages/vanilla/"
-alias := "./packages/alias/"
 react := "./packages/react/"
 native_c := "./packages/react-native-core/"
 native_ct := "./packages/react-native-core-thumb/"
@@ -50,7 +49,6 @@ setup:
 tsc:
     cd ./{{shared}} && ../../{{tsc}} --noEmit
     cd ./{{vanilla}} && ../../{{tsc}} --noEmit
-    cd ./{{alias}} && ../../{{tsc}} --noEmit
     cd ./{{react}} && ../../{{tsc}} --noEmit
     cd ./{{native_c}} && ../../{{tsc}} --noEmit
     cd ./{{native_ct}} && ../../{{tsc}} --noEmit
@@ -99,7 +97,6 @@ build PACKAGE:
 build-all:
     just build-shared
     just build-vanilla
-    cd ./{{alias}} && ../../{{tsup}}
     just build-react
     just build-native
 
@@ -132,7 +129,6 @@ clean:
 
     rm -rf ./{{shared}}/dist
     rm -rf ./{{vanilla}}/dist
-    rm -rf ./{{alias}}/dist
     rm -rf ./{{react}}/dist
     rm -rf ./{{native_c}}/dist
     rm -rf ./{{native_ct}}/dist
@@ -156,7 +152,6 @@ clean-all:
 
     rm -rf ./{{shared}}/node_modules
     rm -rf ./{{vanilla}}/node_modules
-    rm -rf ./{{alias}}/node_modules
     rm -rf ./{{react}}/node_modules
     rm -rf ./{{native_c}}/node_modules
     rm -rf ./{{native_ct}}/node_modules

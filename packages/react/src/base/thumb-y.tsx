@@ -96,9 +96,9 @@ const ThumbY = (props: ThumbYProps): React.JSX.Element => {
     };
 
     const thumbStyle: React.CSSProperties = {
-        height: y.scrollbarLength,
-        top: y.scrollbarOffset,
         ...p.style,
+        height: Number.isNaN(y.scrollbarLength) ? 0 : y.scrollbarLength,
+        top: Number.isNaN(y.scrollbarOffset) ? 0 : y.scrollbarOffset,
     };
 
     return (

@@ -69,8 +69,8 @@ const Thumb = (
         !headless && styles.thumbY,
         p.style,
         {
-            height: scrollbarLength,
-            top: scrollbarOffset,
+            height: Number.isNaN(scrollbarLength) ? 0 : scrollbarLength,
+            top: Number.isNaN(scrollbarOffset) ? 0 : scrollbarOffset,
         },
         !headless && animatedStyles,
     ];

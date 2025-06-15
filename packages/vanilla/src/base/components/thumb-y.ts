@@ -79,13 +79,17 @@ const createThumbY = (options: CreateThumbYOptions): CreateThumbY => {
         cleanups.push(cleanupPointerEffect);
 
         const cleanupLengthEffect = effect((): void => {
-            el.style.height = `${y.scrollbarLength.value}px`;
+            const vl: number = y.scrollbarLength.value;
+            const length: number = Number.isNaN(vl) ? 0 : vl;
+            el.style.height = `${length}px`;
         });
 
         cleanups.push(cleanupLengthEffect);
 
         const cleanupOffsetEffect = effect((): void => {
-            el.style.top = `${y.scrollbarOffset.value}px`;
+            const vl: number = y.scrollbarOffset.value;
+            const offset: number = Number.isNaN(vl) ? 0 : vl;
+            el.style.top = `${offset}px`;
         });
 
         cleanups.push(cleanupOffsetEffect);
